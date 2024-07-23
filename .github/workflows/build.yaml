@@ -36,7 +36,7 @@ jobs:
       #        dependency-graph-exclude-configurations: ".*[Tt]est.*Classpath"
 
       - name: 'Build'
-        run: './gradlew build --info --scan --stacktrace --build-file build.gradle.kts'
+        run: './gradlew build --info --scan --stacktrace --no-build-cache --build-file build.gradle.kts'
 
   build-second:
     runs-on: 'ubuntu-latest'
@@ -71,4 +71,4 @@ jobs:
       #        dependency-graph-exclude-configurations: ".*[Tt]est.*Classpath"
 
       - name: 'Build'
-        run: './gradlew build --info --scan --stacktrace --build-file build-second.gradle.kts'
+        run: './gradlew build --info --scan --stacktrace --no-build-cache --build-file build-second.gradle.kts'
