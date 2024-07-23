@@ -1,7 +1,7 @@
 
-name: 'Build Kontour'
+name: 'Build'
 on:
-  pull_request: {}
+  push: {}
 permissions:
   contents: 'write'
 jobs:
