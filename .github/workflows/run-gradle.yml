@@ -18,16 +18,14 @@ jobs:
     steps:
       - uses: 'hmarr/debug-action@v3'
 
-      - name: GH Jobs
+      - name: grab job id
         run: |
-          echo "$GITHUB_JOB"
-          echo "${{ toJson(github.jobs) }}"
-          echo "${{ github.jobs[github.job].name }}"
-
-      - name: Dump inputs
-        env:
-          INPUTS: ${{ toJson(inputs) }}
-        run: echo "$INPUTS"
+          set -x
+          job_url="https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/jobs"
+          job_json=$(curl -v -s -H "Authorization: token ${{ github.token }}" $job_url | jq')
+          job_id=$(curl -v -s -H "Authorization: token ${{ github.token }}" $job_url | jq -r '.jobs[] | .id')
+          echo $job_json
+          echo $job_id
 
       - name: Dump GitHub context
         env:
