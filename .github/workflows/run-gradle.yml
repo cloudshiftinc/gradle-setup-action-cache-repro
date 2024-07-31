@@ -2,7 +2,12 @@ name: Gradle Task
 run-name: "Gradle Task ${{ inputs.task }}, ${{ inputs.runs-on }}, ${{ inputs.ref }}"
 
 on:
-  workflow_call: { }
+  workflow_call:
+    inputs:
+      input1:
+        required: false
+        type: string
+        default: "the-default-value"
 
 permissions:
   contents: read
@@ -12,6 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: 'hmarr/debug-action@v3'
+
+      - name: Dump inputs
+        env:
+          INPUTS: ${{ toJson(inputs) }}
+        run: echo "INPUTS"
 
       - name: Dump GitHub context
         env:
