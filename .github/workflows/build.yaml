@@ -6,7 +6,13 @@ permissions:
   contents: read
 
 jobs:
+  debugging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: 'hmarr/debug-action@v3'
+
   build-first:
+    needs: [ 'debugging' ]
     uses: ./.github/workflows/run-gradle.yml
 
   build-second:
