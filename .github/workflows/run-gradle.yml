@@ -24,8 +24,6 @@ jobs:
 
          -  name: Setup Gradle
             uses: "gradle/actions/setup-gradle@6c9e5473141d9a428221ea9a229a025d7bf331d4" # v4.0.0-beta.1
-            with:
-               cache-cleanup: true
 
          -  name: Run Gradle
             run: ./gradlew build --scan --stacktrace
