@@ -5,6 +5,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+    group: 'the-concurrency-group'
+    cancel-in-progress: true
+
 jobs:
   debugging:
     runs-on: ubuntu-latest

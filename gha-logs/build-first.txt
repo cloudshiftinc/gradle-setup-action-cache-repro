@@ -25,7 +25,7 @@ Download action repository 'hmarr/debug-action@v3' (SHA:f7318c783045ac39ed9bb497
 Download action repository 'actions/checkout@v4' (SHA:692973e3d937129bcbf40652eb9f2f61becf3332)
 Download action repository 'actions/setup-java@v4' (SHA:99b8673ff64fbf99d8d325f52d9a5bdedb8483e9)
 Download action repository 'gradle/actions@6c9e5473141d9a428221ea9a229a025d7bf331d4' (SHA:6c9e5473141d9a428221ea9a229a025d7bf331d4)
-Uses: cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/run-gradle.yml@refs/heads/main (7efa1c3209cbcbae9baad9fa51ca3873d5a919bf)
+Uses: cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/run-gradle.yml@refs/heads/main (fe435fd182257557742cb8744b982633f1d28523)
 ##[group] Inputs
   input1: the-default-value
 ##[endgroup]
@@ -70,14 +70,14 @@ GITHUB_ACTOR=cloudshiftchris
 GITHUB_ACTOR_ID=75175039
 GITHUB_API_URL=https://api.github.com
 GITHUB_BASE_REF=
-GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_810ed6be-c7bd-44a3-afca-c3f52b2eec52
 GITHUB_EVENT_NAME=push
 GITHUB_EVENT_PATH=/home/runner/work/_temp/_github_workflow/event.json
 GITHUB_GRAPHQL_URL=https://api.github.com/graphql
 GITHUB_HEAD_REF=
 GITHUB_JOB=run-tests
-GITHUB_OUTPUT=/home/runner/work/_temp/_runner_file_commands/set_output_e36ddbe9-adaf-4989-9b0f-eaab558649f7
-GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_OUTPUT=/home/runner/work/_temp/_runner_file_commands/set_output_810ed6be-c7bd-44a3-afca-c3f52b2eec52
+GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_810ed6be-c7bd-44a3-afca-c3f52b2eec52
 GITHUB_REF=refs/heads/main
 GITHUB_REF_NAME=main
 GITHUB_REF_PROTECTED=false
@@ -88,16 +88,16 @@ GITHUB_REPOSITORY_OWNER=cloudshiftinc
 GITHUB_REPOSITORY_OWNER_ID=75175141
 GITHUB_RETENTION_DAYS=90
 GITHUB_RUN_ATTEMPT=1
-GITHUB_RUN_ID=10173079282
-GITHUB_RUN_NUMBER=13
+GITHUB_RUN_ID=10173324016
+GITHUB_RUN_NUMBER=16
 GITHUB_SERVER_URL=https://github.com
-GITHUB_SHA=7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
-GITHUB_STATE=/home/runner/work/_temp/_runner_file_commands/save_state_e36ddbe9-adaf-4989-9b0f-eaab558649f7
-GITHUB_STEP_SUMMARY=/home/runner/work/_temp/_runner_file_commands/step_summary_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_SHA=fe435fd182257557742cb8744b982633f1d28523
+GITHUB_STATE=/home/runner/work/_temp/_runner_file_commands/save_state_810ed6be-c7bd-44a3-afca-c3f52b2eec52
+GITHUB_STEP_SUMMARY=/home/runner/work/_temp/_runner_file_commands/step_summary_810ed6be-c7bd-44a3-afca-c3f52b2eec52
 GITHUB_TRIGGERING_ACTOR=cloudshiftchris
 GITHUB_WORKFLOW=Build
 GITHUB_WORKFLOW_REF=cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main
-GITHUB_WORKFLOW_SHA=7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
+GITHUB_WORKFLOW_SHA=fe435fd182257557742cb8744b982633f1d28523
 GITHUB_WORKSPACE=/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
 GOROOT_1_20_X64=/opt/hostedtoolcache/go/1.20.14/x64
 GOROOT_1_21_X64=/opt/hostedtoolcache/go/1.21.12/x64
@@ -106,7 +106,7 @@ GRADLE_HOME=/usr/share/gradle-8.9
 HOME=/home/runner
 HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS=3650
 HOMEBREW_NO_AUTO_UPDATE=1
-INVOCATION_ID=bdd73830f4ea4593b7490a6667a93b9e
+INVOCATION_ID=122c6ae928d44f1f99ccda5b060827fe
 ImageOS=ubuntu22
 ImageVersion=20240721.1.0
 JAVA_HOME=/usr/lib/jvm/temurin-11-jdk-amd64
@@ -114,7 +114,7 @@ JAVA_HOME_11_X64=/usr/lib/jvm/temurin-11-jdk-amd64
 JAVA_HOME_17_X64=/usr/lib/jvm/temurin-17-jdk-amd64
 JAVA_HOME_21_X64=/usr/lib/jvm/temurin-21-jdk-amd64
 JAVA_HOME_8_X64=/usr/lib/jvm/temurin-8-jdk-amd64
-JOURNAL_STREAM=8:2986
+JOURNAL_STREAM=8:19684
 LANG=C.UTF-8
 LEIN_HOME=/usr/local/lib/lein
 LEIN_JAR=/usr/local/lib/lein/self-installs/leiningen-2.11.2-standalone.jar
@@ -126,16 +126,17 @@ PIPX_HOME=/opt/pipx
 POWERSHELL_DISTRIBUTION_CHANNEL=GitHub-Actions-ubuntu22
 RUNNER_ARCH=X64
 RUNNER_ENVIRONMENT=github-hosted
-RUNNER_NAME=GitHub Actions 1
+RUNNER_NAME=GitHub Actions 42
 RUNNER_OS=Linux
 RUNNER_PERFLOG=/home/runner/perflog
 RUNNER_TEMP=/home/runner/work/_temp
 RUNNER_TOOL_CACHE=/opt/hostedtoolcache
-RUNNER_TRACKING_ID=github_4edfcf34-58fe-4492-9217-85fc6bae17b9
+RUNNER_TRACKING_ID=github_bf15fe07-dff9-44a2-8500-f327c23cd590
 RUNNER_USER=runner
 RUNNER_WORKSPACE=/home/runner/work/gradle-setup-action-cache-repro
 SELENIUM_JAR_PATH=/usr/share/java/selenium-server.jar
 SGX_AESM_ADDR=1
+STATS_BLT=true
 STATS_D=false
 STATS_D_D=false
 STATS_EXT=true
@@ -158,9 +159,9 @@ XDG_RUNTIME_DIR=/run/user/1001
 ##[group]Event JSON
 ::stop-commands::***
 {
-  "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "after": "fe435fd182257557742cb8744b982633f1d28523",
   "base_ref": null,
-  "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+  "before": "e5a0d1a82f860c433ac212fb2136b5ef5e349175",
   "commits": [
     {
       "author": {
@@ -174,14 +175,14 @@ XDG_RUNTIME_DIR=/run/user/1001
         "username": "cloudshiftchris"
       },
       "distinct": true,
-      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "id": "fe435fd182257557742cb8744b982633f1d28523",
       "message": "Updated",
-      "timestamp": "2024-07-30T19:31:44-07:00",
-      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+      "timestamp": "2024-07-30T20:03:29-07:00",
+      "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
     }
   ],
-  "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+  "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/e5a0d1a82f86...fe435fd18225",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -197,11 +198,11 @@ XDG_RUNTIME_DIR=/run/user/1001
       "username": "cloudshiftchris"
     },
     "distinct": true,
-    "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "id": "fe435fd182257557742cb8744b982633f1d28523",
     "message": "Updated",
-    "timestamp": "2024-07-30T19:31:44-07:00",
-    "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-    "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+    "timestamp": "2024-07-30T20:03:29-07:00",
+    "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+    "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
   },
   "organization": {
     "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
@@ -306,9 +307,9 @@ XDG_RUNTIME_DIR=/run/user/1001
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
-    "pushed_at": 1722393106,
+    "pushed_at": 1722395011,
     "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
-    "size": 51,
+    "size": 143,
     "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
     "stargazers": 0,
     "stargazers_count": 0,
@@ -321,7 +322,7 @@ XDG_RUNTIME_DIR=/run/user/1001
     "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
     "topics": [],
     "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
-    "updated_at": "2024-07-31T02:30:12Z",
+    "updated_at": "2024-07-31T03:02:05Z",
     "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
     "visibility": "public",
     "watchers": 0,
@@ -351,17 +352,409 @@ XDG_RUNTIME_DIR=/run/user/1001
 }
 ::***::
 ##[endgroup]
-##[group]Run echo "$INPUTS"
-[36;1mecho "$INPUTS"[0m
+##[group]Run set -x
+[36;1mset -x[0m
+[36;1mjob_url="https://api.github.com/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/jobs"[0m
+[36;1mjob_json=$(curl -v -s -H "Authorization: token ***" $job_url | jq)[0m
+[36;1mjob_id=$(curl -v -s -H "Authorization: token ***" $job_url | jq -r '.jobs[] | .id')[0m
+[36;1mecho $job_json[0m
+[36;1mecho $job_id[0m
 shell: /usr/bin/bash -e {0}
-env:
-  INPUTS: {
-  "input1": "the-default-value"
-}
 ##[endgroup]
-{
-  "input1": "the-default-value"
-}
++ job_url=https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/jobs
+++ curl -v -s -H 'Authorization: token ***' https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/jobs
+++ jq
+*   Trying 140.82.112.5:443...
+* Connected to api.github.com (140.82.112.5) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* TLSv1.0 (OUT), TLS header, Certificate Status (22):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.2 (IN), TLS header, Certificate Status (22):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.2 (IN), TLS header, Finished (20):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [3136 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.2 (OUT), TLS header, Finished (20):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.github.com
+*  start date: Mar  7 00:00:00 2024 GMT
+*  expire date: Mar  7 23:59:59 2025 GMT
+*  subjectAltName: host "api.github.com" matched cert's "*.github.com"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo ECC Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multiplexing
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0x55a59ab56e20)
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+> GET /repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/jobs HTTP/2
+> Host: api.github.com
+> user-agent: curl/7.81.0
+> accept: */*
+> authorization: token ***
+>
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* old SSL session ID is stale, removing
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+< HTTP/2 200
+< date: Wed, 31 Jul 2024 03:03:59 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 4851
+< cache-control: private, max-age=60, s-maxage=60
+< vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+< etag: "e021eb1dcb19fd0581c56f45fd057e6e3663bbe29a19ae8553730a8e1c369428"
+< x-github-media-type: github.v3; format=json
+< x-accepted-github-permissions: actions=read
+< x-github-api-version-selected: 2022-11-28
+< x-ratelimit-limit: 5000
+< x-ratelimit-remaining: 4999
+< x-ratelimit-reset: 1722398639
+< x-ratelimit-used: 1
+< x-ratelimit-resource: core
+< access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+< access-control-allow-origin: *
+< strict-transport-security: max-age=31536000; includeSubdomains; preload
+< x-frame-options: deny
+< x-content-type-options: nosniff
+< x-xss-protection: 0
+< referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+< content-security-policy: default-src 'none'
+< x-github-request-id: 50AB:297F8C:20489F9:3BBC392:66A9A99F
+< server: github.com
+<
+{ [204 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* Connection #0 to host api.github.com left intact
++ job_json='{
+  "total_count": 2,
+  "jobs": [
+    {
+      "id": 28137277102,
+      "run_id": 10173324016,
+      "workflow_name": "Build",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOMaSRws8AAAAGjRzGrg",
+      "head_sha": "fe435fd182257557742cb8744b982633f1d28523",
+      "url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137277102",
+      "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137277102",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2024-07-31T03:03:34Z",
+      "started_at": "2024-07-31T03:03:41Z",
+      "completed_at": "2024-07-31T03:03:48Z",
+      "name": "debugging",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2024-07-31T03:03:41Z",
+          "completed_at": "2024-07-31T03:03:42Z"
+        },
+        {
+          "name": "Run hmarr/debug-action@v3",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2024-07-31T03:03:42Z",
+          "completed_at": "2024-07-31T03:03:46Z"
+        },
+        {
+          "name": "Dump GitHub context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Dump job context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Dump steps context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Dump runner context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Dump strategy context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Dump matrix context",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2024-07-31T03:03:48Z",
+          "completed_at": "2024-07-31T03:03:48Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2024-07-31T03:03:47Z",
+          "completed_at": "2024-07-31T03:03:47Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137277102",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 61,
+      "runner_name": "GitHub Actions 1",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 28137283524,
+      "run_id": 10173324016,
+      "workflow_name": "Build",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOMaSRws8AAAAGjRzfxA",
+      "head_sha": "fe435fd182257557742cb8744b982633f1d28523",
+      "url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137283524",
+      "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137283524",
+      "status": "in_progress",
+      "conclusion": null,
+      "created_at": "2024-07-31T03:03:50Z",
+      "started_at": "2024-07-31T03:03:55Z",
+      "completed_at": null,
+      "name": "build-first / run-tests",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 1,
+          "started_at": "2024-07-31T03:03:55Z",
+          "completed_at": null
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137283524",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 42,
+      "runner_name": "GitHub Actions 42",
+      "runner_group_id": 2,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}'
+++ curl -v -s -H 'Authorization: token ***' https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/jobs
+++ jq -r '.jobs[] | .id'
+*   Trying 140.82.112.5:443...
+* Connected to api.github.com (140.82.112.5) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* TLSv1.0 (OUT), TLS header, Certificate Status (22):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.2 (IN), TLS header, Certificate Status (22):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.2 (IN), TLS header, Finished (20):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [3136 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* TLSv1.2 (OUT), TLS header, Finished (20):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.github.com
+*  start date: Mar  7 00:00:00 2024 GMT
+*  expire date: Mar  7 23:59:59 2025 GMT
+*  subjectAltName: host "api.github.com" matched cert's "*.github.com"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo ECC Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multiplexing
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0x560849181e20)
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+> GET /repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/jobs HTTP/2
+> Host: api.github.com
+> user-agent: curl/7.81.0
+> accept: */*
+> authorization: token ***
+>
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [57 bytes data]
+* old SSL session ID is stale, removing
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+< HTTP/2 200
+< date: Wed, 31 Jul 2024 03:03:59 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 7393
+< cache-control: private, max-age=60, s-maxage=60
+< vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+< etag: "9cb7c11eb6e08f834918b48e578ed711d27a464ef642fe1c3f7b23110886fb3f"
+< x-github-media-type: github.v3; format=json
+< x-accepted-github-permissions: actions=read
+< x-github-api-version-selected: 2022-11-28
+< x-ratelimit-limit: 5000
+< x-ratelimit-remaining: 4998
+< x-ratelimit-reset: 1722398639
+< x-ratelimit-used: 2
+< x-ratelimit-resource: core
+< access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+< access-control-allow-origin: *
+< strict-transport-security: max-age=31536000; includeSubdomains; preload
+< x-frame-options: deny
+< x-content-type-options: nosniff
+< x-xss-protection: 0
+< referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+< content-security-policy: default-src 'none'
+< x-github-request-id: 50AC:C9083:1C17365:335E415:66A9A99F
+< server: github.com
+<
+{ [205 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS header, Supplemental data (23):
+{ [5 bytes data]
+* Connection #0 to host api.github.com left intact
++ job_id='28137277102
+28137283524'
++ echo '{' '"total_count":' 2, '"jobs":' '[' '{' '"id":' 28137277102, '"run_id":' 10173324016, '"workflow_name":' '"Build",' '"head_branch":' '"main",' '"run_url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016",' '"run_attempt":' 1, '"node_id":' '"CR_kwDOMaSRws8AAAAGjRzGrg",' '"head_sha":' '"fe435fd182257557742cb8744b982633f1d28523",' '"url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137277102",' '"html_url":' '"https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137277102",' '"status":' '"completed",' '"conclusion":' '"success",' '"created_at":' '"2024-07-31T03:03:34Z",' '"started_at":' '"2024-07-31T03:03:41Z",' '"completed_at":' '"2024-07-31T03:03:48Z",' '"name":' '"debugging",' '"steps":' '[' '{' '"name":' '"Set' up 'job",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 1, '"started_at":' '"2024-07-31T03:03:41Z",' '"completed_at":' '"2024-07-31T03:03:42Z"' '},' '{' '"name":' '"Run' 'hmarr/debug-action@v3",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 2, '"started_at":' '"2024-07-31T03:03:42Z",' '"completed_at":' '"2024-07-31T03:03:46Z"' '},' '{' '"name":' '"Dump' GitHub 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 3, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Dump' job 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 4, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Dump' steps 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 5, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Dump' runner 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 6, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Dump' strategy 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 7, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Dump' matrix 'context",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 8, '"started_at":' '"2024-07-31T03:03:48Z",' '"completed_at":' '"2024-07-31T03:03:48Z"' '},' '{' '"name":' '"Complete' 'job",' '"status":' '"completed",' '"conclusion":' '"success",' '"number":' 9, '"started_at":' '"2024-07-31T03:03:47Z",' '"completed_at":' '"2024-07-31T03:03:47Z"' '}' '],' '"check_run_url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137277102",' '"labels":' '[' '"ubuntu-latest"' '],' '"runner_id":' 61, '"runner_name":' '"GitHub' Actions '1",' '"runner_group_id":' 2, '"runner_group_name":' '"GitHub' 'Actions"' '},' '{' '"id":' 28137283524, '"run_id":' 10173324016, '"workflow_name":' '"Build",' '"head_branch":' '"main",' '"run_url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016",' '"run_attempt":' 1, '"node_id":' '"CR_kwDOMaSRws8AAAAGjRzfxA",' '"head_sha":' '"fe435fd182257557742cb8744b982633f1d28523",' '"url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137283524",' '"html_url":' '"https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137283524",' '"status":' '"in_progress",' '"conclusion":' null, '"created_at":' '"2024-07-31T03:03:50Z",' '"started_at":' '"2024-07-31T03:03:55Z",' '"completed_at":' null, '"name":' '"build-first' / 'run-tests",' '"steps":' '[' '{' '"name":' '"Set' up 'job",' '"status":' '"in_progress",' '"conclusion":' null, '"number":' 1, '"started_at":' '"2024-07-31T03:03:55Z",' '"completed_at":' null '}' '],' '"check_run_url":' '"https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137283524",' '"labels":' '[' '"ubuntu-latest"' '],' '"runner_id":' 42, '"runner_name":' '"GitHub' Actions '42",' '"runner_group_id":' 2, '"runner_group_name":' '"GitHub' 'Actions"' '}' ']' '}'
+{ "total_count": 2, "jobs": [ { "id": 28137277102, "run_id": 10173324016, "workflow_name": "Build", "head_branch": "main", "run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016", "run_attempt": 1, "node_id": "CR_kwDOMaSRws8AAAAGjRzGrg", "head_sha": "fe435fd182257557742cb8744b982633f1d28523", "url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137277102", "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137277102", "status": "completed", "conclusion": "success", "created_at": "2024-07-31T03:03:34Z", "started_at": "2024-07-31T03:03:41Z", "completed_at": "2024-07-31T03:03:48Z", "name": "debugging", "steps": [ { "name": "Set up job", "status": "completed", "conclusion": "success", "number": 1, "started_at": "2024-07-31T03:03:41Z", "completed_at": "2024-07-31T03:03:42Z" }, { "name": "Run hmarr/debug-action@v3", "status": "completed", "conclusion": "success", "number": 2, "started_at": "2024-07-31T03:03:42Z", "completed_at": "2024-07-31T03:03:46Z" }, { "name": "Dump GitHub context", "status": "completed", "conclusion": "success", "number": 3, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Dump job context", "status": "completed", "conclusion": "success", "number": 4, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Dump steps context", "status": "completed", "conclusion": "success", "number": 5, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Dump runner context", "status": "completed", "conclusion": "success", "number": 6, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Dump strategy context", "status": "completed", "conclusion": "success", "number": 7, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Dump matrix context", "status": "completed", "conclusion": "success", "number": 8, "started_at": "2024-07-31T03:03:48Z", "completed_at": "2024-07-31T03:03:48Z" }, { "name": "Complete job", "status": "completed", "conclusion": "success", "number": 9, "started_at": "2024-07-31T03:03:47Z", "completed_at": "2024-07-31T03:03:47Z" } ], "check_run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137277102", "labels": [ "ubuntu-latest" ], "runner_id": 61, "runner_name": "GitHub Actions 1", "runner_group_id": 2, "runner_group_name": "GitHub Actions" }, { "id": 28137283524, "run_id": 10173324016, "workflow_name": "Build", "head_branch": "main", "run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016", "run_attempt": 1, "node_id": "CR_kwDOMaSRws8AAAAGjRzfxA", "head_sha": "fe435fd182257557742cb8744b982633f1d28523", "url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/actions/jobs/28137283524", "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/actions/runs/10173324016/job/28137283524", "status": "in_progress", "conclusion": null, "created_at": "2024-07-31T03:03:50Z", "started_at": "2024-07-31T03:03:55Z", "completed_at": null, "name": "build-first / run-tests", "steps": [ { "name": "Set up job", "status": "in_progress", "conclusion": null, "number": 1, "started_at": "2024-07-31T03:03:55Z", "completed_at": null } ], "check_run_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/check-runs/28137283524", "labels": [ "ubuntu-latest" ], "runner_id": 42, "runner_name": "GitHub Actions 42", "runner_group_id": 2, "runner_group_name": "GitHub Actions" } ] }
++ echo 28137277102 28137283524
+28137277102 28137283524
 ##[group]Run echo "$GITHUB_CONTEXT"
 [36;1mecho "$GITHUB_CONTEXT"[0m
 shell: /usr/bin/bash -e {0}
@@ -370,13 +763,13 @@ env:
   "token": "***",
   "job": "run-tests",
   "ref": "refs/heads/main",
-  "sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "sha": "fe435fd182257557742cb8744b982633f1d28523",
   "repository": "cloudshiftinc/gradle-setup-action-cache-repro",
   "repository_owner": "cloudshiftinc",
   "repository_owner_id": "75175141",
   "repositoryUrl": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
-  "run_id": "10173079282",
-  "run_number": "13",
+  "run_id": "10173324016",
+  "run_number": "16",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -392,9 +785,9 @@ env:
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "after": "fe435fd182257557742cb8744b982633f1d28523",
     "base_ref": null,
-    "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+    "before": "e5a0d1a82f860c433ac212fb2136b5ef5e349175",
     "commits": [
       {
         "author": {
@@ -408,14 +801,14 @@ env:
           "username": "cloudshiftchris"
         },
         "distinct": true,
-        "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+        "id": "fe435fd182257557742cb8744b982633f1d28523",
         "message": "Updated",
-        "timestamp": "2024-07-30T19:31:44-07:00",
-        "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+        "timestamp": "2024-07-30T20:03:29-07:00",
+        "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
       }
     ],
-    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/e5a0d1a82f86...fe435fd18225",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -431,11 +824,11 @@ env:
         "username": "cloudshiftchris"
       },
       "distinct": true,
-      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "id": "fe435fd182257557742cb8744b982633f1d28523",
       "message": "Updated",
-      "timestamp": "2024-07-30T19:31:44-07:00",
-      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+      "timestamp": "2024-07-30T20:03:29-07:00",
+      "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
     },
     "organization": {
       "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
@@ -540,9 +933,9 @@ env:
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
-      "pushed_at": 1722393106,
+      "pushed_at": 1722395011,
       "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
-      "size": 51,
+      "size": 143,
       "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
       "stargazers": 0,
       "stargazers_count": 0,
@@ -555,7 +948,7 @@ env:
       "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
       "topics": [],
       "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
-      "updated_at": "2024-07-31T02:30:12Z",
+      "updated_at": "2024-07-31T03:02:05Z",
       "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
       "visibility": "public",
       "watchers": 0,
@@ -591,30 +984,30 @@ env:
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main",
-  "workflow_sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "workflow_sha": "fe435fd182257557742cb8744b982633f1d28523",
   "workspace": "/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro",
   "action": "__run_2",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_f37ad513-121e-45ae-b931-b4235c06526e",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_f37ad513-121e-45ae-b931-b4235c06526e",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_f37ad513-121e-45ae-b931-b4235c06526e",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_f37ad513-121e-45ae-b931-b4235c06526e",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_f37ad513-121e-45ae-b931-b4235c06526e"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b"
 }
 ##[endgroup]
 {
   "token": "***",
   "job": "run-tests",
   "ref": "refs/heads/main",
-  "sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "sha": "fe435fd182257557742cb8744b982633f1d28523",
   "repository": "cloudshiftinc/gradle-setup-action-cache-repro",
   "repository_owner": "cloudshiftinc",
   "repository_owner_id": "75175141",
   "repositoryUrl": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
-  "run_id": "10173079282",
-  "run_number": "13",
+  "run_id": "10173324016",
+  "run_number": "16",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -630,9 +1023,9 @@ env:
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "after": "fe435fd182257557742cb8744b982633f1d28523",
     "base_ref": null,
-    "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+    "before": "e5a0d1a82f860c433ac212fb2136b5ef5e349175",
     "commits": [
       {
         "author": {
@@ -646,14 +1039,14 @@ env:
           "username": "cloudshiftchris"
         },
         "distinct": true,
-        "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+        "id": "fe435fd182257557742cb8744b982633f1d28523",
         "message": "Updated",
-        "timestamp": "2024-07-30T19:31:44-07:00",
-        "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+        "timestamp": "2024-07-30T20:03:29-07:00",
+        "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
       }
     ],
-    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/e5a0d1a82f86...fe435fd18225",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -669,11 +1062,11 @@ env:
         "username": "cloudshiftchris"
       },
       "distinct": true,
-      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "id": "fe435fd182257557742cb8744b982633f1d28523",
       "message": "Updated",
-      "timestamp": "2024-07-30T19:31:44-07:00",
-      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
-      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+      "timestamp": "2024-07-30T20:03:29-07:00",
+      "tree_id": "5eff3f490f429251ee888aa68b5d787ee7f15d32",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/fe435fd182257557742cb8744b982633f1d28523"
     },
     "organization": {
       "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
@@ -778,9 +1171,9 @@ env:
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
-      "pushed_at": 1722393106,
+      "pushed_at": 1722395011,
       "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
-      "size": 51,
+      "size": 143,
       "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
       "stargazers": 0,
       "stargazers_count": 0,
@@ -793,7 +1186,7 @@ env:
       "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
       "topics": [],
       "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
-      "updated_at": "2024-07-31T02:30:12Z",
+      "updated_at": "2024-07-31T03:02:05Z",
       "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
       "visibility": "public",
       "watchers": 0,
@@ -829,17 +1222,17 @@ env:
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main",
-  "workflow_sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "workflow_sha": "fe435fd182257557742cb8744b982633f1d28523",
   "workspace": "/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro",
   "action": "__run_2",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_f37ad513-121e-45ae-b931-b4235c06526e",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_f37ad513-121e-45ae-b931-b4235c06526e",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_f37ad513-121e-45ae-b931-b4235c06526e",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_f37ad513-121e-45ae-b931-b4235c06526e",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_f37ad513-121e-45ae-b931-b4235c06526e"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_3d1e14f6-e6a5-4b5d-ad5a-9b24154d7f1b"
 }
 ##[group]Run echo "$JOB_CONTEXT"
 [36;1mecho "$JOB_CONTEXT"[0m
@@ -866,7 +1259,7 @@ env:
   RUNNER_CONTEXT: {
   "os": "Linux",
   "arch": "X64",
-  "name": "GitHub Actions 1",
+  "name": "GitHub Actions 42",
   "environment": "github-hosted",
   "tool_cache": "/opt/hostedtoolcache",
   "temp": "/home/runner/work/_temp",
@@ -876,7 +1269,7 @@ env:
 {
   "os": "Linux",
   "arch": "X64",
-  "name": "GitHub Actions 1",
+  "name": "GitHub Actions 42",
   "environment": "github-hosted",
   "tool_cache": "/opt/hostedtoolcache",
   "temp": "/home/runner/work/_temp",
@@ -928,7 +1321,7 @@ Working directory is '/home/runner/work/gradle-setup-action-cache-repro/gradle-s
 [command]/usr/bin/git version
 git version 2.45.2
 ##[endgroup]
-Temporarily overriding HOME='/home/runner/work/_temp/6d64d12e-78be-47a4-a268-abacd3a616d8' before making global git config changes
+Temporarily overriding HOME='/home/runner/work/_temp/13b2ec75-dd97-4a46-880a-feda09074d8b' before making global git config changes
 Adding repository directory to the temporary git global config as a safe directory
 [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
 Deleting the contents of '/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro'
@@ -958,9 +1351,9 @@ Initialized empty Git repository in /home/runner/work/gradle-setup-action-cache-
 [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
 ##[endgroup]
 ##[group]Fetching the repository
-[command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7efa1c3209cbcbae9baad9fa51ca3873d5a919bf:refs/remotes/origin/main
+[command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +fe435fd182257557742cb8744b982633f1d28523:refs/remotes/origin/main
 From https://github.com/cloudshiftinc/gradle-setup-action-cache-repro
- * [new ref]         7efa1c3209cbcbae9baad9fa51ca3873d5a919bf -> origin/main
+ * [new ref]         fe435fd182257557742cb8744b982633f1d28523 -> origin/main
 ##[endgroup]
 ##[group]Determining the checkout info
 ##[endgroup]
@@ -972,7 +1365,7 @@ Switched to a new branch 'main'
 branch 'main' set up to track 'origin/main'.
 ##[endgroup]
 [command]/usr/bin/git log -1 --format='%H'
-'7efa1c3209cbcbae9baad9fa51ca3873d5a919bf'
+'fe435fd182257557742cb8744b982633f1d28523'
 ##[group]Run actions/setup-java@v4
 with:
   distribution: temurin
@@ -1027,39 +1420,39 @@ env:
 Merged default JDK locations into /home/runner/.m2/toolchains.xml
 Preparing cache for cleanup.
 ##[group]Restore Gradle state from cache
-Cache Size: ~0 MB (143937 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/69b21a2e-6b23-45be-a89d-808bae0b0b74/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache Size: ~0 MB (144133 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/14a7c907-d14d-4516-a45e-54f92c41f17b/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache restored successfully
-Restored Gradle User Home from cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-ea589753b1079cc72b236aed92b8be0c06ef9e8b
-Cache Size: ~0 MB (70734 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/77493273-d52a-4744-8eee-d13e072137c2/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Restored Gradle User Home from cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-304ee8b9faafb44ad121c269684d128bb5d5ed52
+Cache Size: ~0 MB (70655 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/4c8303b8-1b37-4d6e-b995-42f9747e2c19/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache restored successfully
-Restored instrumented-jars with key gradle-instrumented-jars-v1-c42eceb0a89c5447068a6b828c93a01d to /home/runner/.gradle/caches/jars-*/*/
-Cache Size: ~0 MB (107940 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/deb2983a-4a2f-40ab-8098-6933e7544cc0/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
-Cache restored successfully
-Restored groovy-dsl with key gradle-groovy-dsl-v1-284c4f60d520377ec3c94c358e37a17b to /home/runner/.gradle/caches/*/groovy-dsl/*/
+Restored instrumented-jars with key gradle-instrumented-jars-v1-6af65f6ad7744f05353178699d30697c to /home/runner/.gradle/caches/jars-*/*/
 Cache Size: ~0 MB (56181 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/bc360747-3976-4142-803b-7ed969b63813/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+[command]/usr/bin/tar -xf /home/runner/work/_temp/b62c7478-2204-4ca8-b762-335138a6195e/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache restored successfully
 Restored kotlin-dsl with key gradle-kotlin-dsl-v1-e4ee9c8f6023c6da84d06bfb6a5a2f30 to /home/runner/.gradle/caches/*/kotlin-dsl/accessors/*/
 /home/runner/.gradle/caches/*/kotlin-dsl/scripts/*/
-Received 143937 of 143937 (100.0%), 0.1 MBs/sec
+Cache Size: ~0 MB (108018 B)
+Received 144133 of 144133 (100.0%), 0.1 MBs/sec
 Cache Size: ~38 MB (39868065 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/66cdf962-b5c9-4abd-9ac7-0bffd518fb7c/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+[command]/usr/bin/tar -xf /home/runner/work/_temp/825a3ef0-3d2c-4856-8890-275b8f7a8a02/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored groovy-dsl with key gradle-groovy-dsl-v1-baaece59d76e6abebcae67ecf5702608 to /home/runner/.gradle/caches/*/groovy-dsl/*/
+Received 39868065 of 39868065 (100.0%), 37.7 MBs/sec
 Cache Size: ~45 MB (47662004 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/2321ad61-4680-4789-b2dd-8484fa41e38f/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
-Received 47662004 of 47662004 (100.0%), 44.8 MBs/sec
-Received 107940 of 107940 (100.0%), 0.1 MBs/sec
-Received 70734 of 70734 (100.0%), 0.1 MBs/sec
-Received 39868065 of 39868065 (100.0%), 38.1 MBs/sec
-Received 68083854 of 89055374 (76.5%), 64.9 MBs/sec
+Received 41943040 of 89055374 (47.1%), 40.0 MBs/sec
+Received 47662004 of 47662004 (100.0%), 45.2 MBs/sec
+Received 70655 of 70655 (100.0%), 0.1 MBs/sec
+Received 108018 of 108018 (100.0%), 0.1 MBs/sec
+Received 58720256 of 135306891 (43.4%), 55.9 MBs/sec
+[command]/usr/bin/tar -xf /home/runner/work/_temp/2c537c7a-212d-4683-868d-df5f0f52278c/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Received 56181 of 56181 (100.0%), 0.1 MBs/sec
-Received 79691776 of 135306891 (58.9%), 75.5 MBs/sec
+[command]/usr/bin/tar -xf /home/runner/work/_temp/b9ae89d6-0ba8-4acd-ae6f-0502106ae38c/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache Size: ~85 MB (89055374 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/2d31902e-a0ce-4860-8e09-08d635361368/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+[command]/usr/bin/tar -xf /home/runner/work/_temp/175bb5b4-f8ba-4653-80e3-70eed9f20a43/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache Size: ~129 MB (135306891 B)
-[command]/usr/bin/tar -xf /home/runner/work/_temp/48fac8c4-cfcd-4008-bb08-d2f1b85af635/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+[command]/usr/bin/tar -xf /home/runner/work/_temp/e0e30fb4-4b10-438f-b9e2-f58997aa2273/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
 Cache restored successfully
 Restored generated-gradle-jars with key gradle-generated-gradle-jars-v1-26cfecc158c44513d188405a5d2d0d9c to /home/runner/.gradle/caches/8.9/generated-gradle-jars/gradle-api-8.9.jar
 Cache restored successfully
@@ -1311,8 +1704,8 @@ The org.gradle.api.plugins.Convention type has been deprecated. This is schedule
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-> Task :processTestResources NO-SOURCE
 > Task :processResources NO-SOURCE
+> Task :processTestResources NO-SOURCE
 > Task :compileKotlin FROM-CACHE
 > Task :compileJava NO-SOURCE
 > Task :classes UP-TO-DATE
@@ -1325,11 +1718,11 @@ The org.gradle.api.plugins.Convention type has been deprecated. This is schedule
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 22s
 2 actionable tasks: 1 executed, 1 from cache
 
 Publishing build scan...
-https://gradle.com/s/hdca4s42gqw6q
+https://gradle.com/s/2jrq5efiltyea
 
 Configuration cache entry stored.
 Post job cleanup.
@@ -1340,7 +1733,7 @@ Stopping Gradle daemons for /home/runner/.gradle/wrapper/dists/gradle-8.9-bin/90
 Stopping Daemon(s)
 1 Daemon stopped
 Forcing cache cleanup.
-Cleaning up caches before 1722393132838
+Cleaning up caches before 1722395040943
 ##[group]Provision Gradle 8.9
 Gradle version 8.9 is already available on PATH. Not installing.
 ##[endgroup]
@@ -1351,8 +1744,8 @@ Received JVM installation metadata from '/usr/lib/jvm/temurin-21-jdk-amd64': {JA
 To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.9/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
 Starting process 'Gradle build daemon'. Working directory: /home/runner/.gradle/daemon/8.9 Command: /usr/lib/jvm/temurin-21-jdk-amd64/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -cp /usr/share/gradle-8.9/lib/gradle-daemon-main-8.9.jar -javaagent:/usr/share/gradle-8.9/lib/agents/gradle-instrumentation-agent-8.9.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.9
 Successfully started process 'Gradle build daemon'
-An attempt to start the daemon took 8.277 secs.
-The client will now receive all logging from the daemon (pid: 2143). The daemon log file: /home/runner/.gradle/daemon/8.9/daemon-2143.out.log
+An attempt to start the daemon took 8.628 secs.
+The client will now receive all logging from the daemon (pid: 2119). The daemon log file: /home/runner/.gradle/daemon/8.9/daemon-2119.out.log
 Daemon will be stopped at the end of the build
 Using 4 worker leases.
 Received JVM installation metadata from '/usr/lib/jvm/temurin-21-jdk-amd64': {JAVA_HOME=/usr/lib/jvm/temurin-21-jdk-amd64, JAVA_VERSION=21.0.3, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.3+9-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.3+9-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
@@ -1380,49 +1773,49 @@ Task name matched 'noop'
 Selected primary task 'noop' from project :
 Tasks to be executed: [task ':noop']
 Tasks that were excluded: []
-Resolve mutations for :noop (Thread[#53,Execution worker Thread 2,5,main]) started.
-:noop (Thread[#53,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :noop (Thread[#52,Execution worker,5,main]) started.
+:noop (Thread[#52,Execution worker,5,main]) started.
 
 > Task :noop UP-TO-DATE
 Skipping task ':noop' as it has no actions.
 
 BUILD SUCCESSFUL in 19s
-Build cache (/home/runner/.gradle/caches/build-cache-1) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+Build cache (/home/runner/.gradle/caches/build-cache-1) removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 Build cache (/home/runner/.gradle/caches/build-cache-1) cleanup deleted 0 files/directories.
 Build cache (/home/runner/.gradle/caches/build-cache-1) cleaned up in 0.002 secs.
-groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) cleanup deleted 2 files/directories.
-groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) cleaned up in 0.009 secs.
-Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) cleaned up in 0.012 secs.
+Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) cleanup deleted 0 files/directories.
-Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) cleaned up in 0.026 secs.
+Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) cleaned up in 0.033 secs.
 jars (/home/runner/.gradle/caches/jars-9) cleanup deleted 0 files/directories.
-jars (/home/runner/.gradle/caches/jars-9) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+jars (/home/runner/.gradle/caches/jars-9) removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 jars (/home/runner/.gradle/caches/jars-9) cleanup deleted 1 files/directories.
-jars (/home/runner/.gradle/caches/jars-9) cleaned up in 0.003 secs.
+jars (/home/runner/.gradle/caches/jars-9) cleaned up in 0.048 secs.
 artifact cache (/home/runner/.gradle/caches/modules-2) cleanup deleted 0 files/directories.
 artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] cleanup deleted 0 files/directories.
-artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] cleanup deleted 0 files/directories.
 artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] cleanup deleted 0 files/directories.
-artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] removing files not accessed on or after Wed Jul 31 03:04:00 UTC 2024.
 artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] cleanup deleted 0 files/directories.
 artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/metadata-2.106] cleanup deleted 0 files/directories.
 artifact cache (/home/runner/.gradle/caches/modules-2) cleanup deleted 0 files/directories.
-artifact cache (/home/runner/.gradle/caches/modules-2) cleaned up in 0.009 secs.
+artifact cache (/home/runner/.gradle/caches/modules-2) cleaned up in 0.01 secs.
 ##[group]Caching Gradle state
 Not saving configuration-cache state, as no encryption key was provided
-Caching instrumented-jars with path '/home/runner/.gradle/caches/jars-*/*/' and cache key: gradle-instrumented-jars-v1-6a372dd5a944fa011058dbba25130467
-Caching groovy-dsl with path '/home/runner/.gradle/caches/*/groovy-dsl/*/' and cache key: gradle-groovy-dsl-v1-f0758832b95222a2b8e08d42d7127acf
+Caching instrumented-jars with path '/home/runner/.gradle/caches/jars-*/*/' and cache key: gradle-instrumented-jars-v1-f82a09c2620c89803d2e30a72b30c908
+Caching groovy-dsl with path '/home/runner/.gradle/caches/*/groovy-dsl/*/' and cache key: gradle-groovy-dsl-v1-110d7822aa3a54467d99fa54dd399510
 [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
 [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
-Cache Size: ~0 MB (108059 B)
-Cache Size: ~0 MB (70819 B)
+Cache Size: ~0 MB (70793 B)
+Cache Size: ~0 MB (108102 B)
 Cache saved successfully
 Cache saved successfully
-Caching Gradle User Home with cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
+Caching Gradle User Home with cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-fe435fd182257557742cb8744b982633f1d28523
 [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
-Cache Size: ~0 MB (144124 B)
+Cache Size: ~0 MB (144641 B)
 Cache saved successfully
 ##[endgroup]
 Generating Job Summary
@@ -1431,7 +1824,7 @@ Post job cleanup.
 Post job cleanup.
 [command]/usr/bin/git version
 git version 2.45.2
-Temporarily overriding HOME='/home/runner/work/_temp/c3b70e32-7843-430a-a216-f633304346ca' before making global git config changes
+Temporarily overriding HOME='/home/runner/work/_temp/c3e7b4be-1d9c-4bf6-a7ba-ee7908d569cb' before making global git config changes
 Adding repository directory to the temporary git global config as a safe directory
 [command]/usr/bin/git config --global --add safe.directory /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
 [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
