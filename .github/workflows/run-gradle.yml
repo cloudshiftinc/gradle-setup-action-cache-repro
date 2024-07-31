@@ -18,6 +18,12 @@ jobs:
     steps:
       - uses: 'hmarr/debug-action@v3'
 
+      - name: GH Jobs
+        run: |
+          echo "$GITHUB_JOB"
+          echo "${{ toJson(github.jobs) }}"
+          echo "${{ github.jobs[github.job].name }}"
+
       - name: Dump inputs
         env:
           INPUTS: ${{ toJson(inputs) }}

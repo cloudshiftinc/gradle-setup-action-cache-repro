@@ -1,0 +1,1443 @@
+Current runner version: '2.317.0'
+##[group]Operating System
+Ubuntu
+22.04.4
+LTS
+##[endgroup]
+##[group]Runner Image
+Image: ubuntu-22.04
+Version: 20240721.1.0
+Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240721.1/images/ubuntu/Ubuntu2204-Readme.md
+Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240721.1
+##[endgroup]
+##[group]Runner Image Provisioner
+2.0.374.1
+##[endgroup]
+##[group]GITHUB_TOKEN Permissions
+Contents: read
+Metadata: read
+##[endgroup]
+Secret source: Actions
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'hmarr/debug-action@v3' (SHA:f7318c783045ac39ed9bb497e22ce835fdafbfe6)
+Download action repository 'actions/checkout@v4' (SHA:692973e3d937129bcbf40652eb9f2f61becf3332)
+Download action repository 'actions/setup-java@v4' (SHA:99b8673ff64fbf99d8d325f52d9a5bdedb8483e9)
+Download action repository 'gradle/actions@6c9e5473141d9a428221ea9a229a025d7bf331d4' (SHA:6c9e5473141d9a428221ea9a229a025d7bf331d4)
+Uses: cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/run-gradle.yml@refs/heads/main (7efa1c3209cbcbae9baad9fa51ca3873d5a919bf)
+##[group] Inputs
+  input1: the-default-value
+##[endgroup]
+Complete job name: build-first / run-tests
+##[group]Run hmarr/debug-action@v3
+##[endgroup]
+##[group]Environment variables
+::stop-commands::***
+ACCEPT_EULA=Y
+ACTIONS_CACHE_URL=https://acghubeus2.actions.githubusercontent.com/h1QttNRh6fyeI6emqKrpcCzvggRFHf8yipSyepYU7toQW12XQ4/
+ACTIONS_RESULTS_URL=https://results-receiver.actions.githubusercontent.com/
+ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE=/opt/actionarchivecache
+ACTIONS_RUNTIME_TOKEN=***
+ACTIONS_RUNTIME_URL=https://pipelinesghubeus14.actions.githubusercontent.com/h1QttNRh6fyeI6emqKrpcCzvggRFHf8yipSyepYU7toQW12XQ4/
+AGENT_TOOLSDIRECTORY=/opt/hostedtoolcache
+ANDROID_HOME=/usr/local/lib/android/sdk
+ANDROID_NDK=/usr/local/lib/android/sdk/ndk/25.2.9519653
+ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk/25.2.9519653
+ANDROID_NDK_LATEST_HOME=/usr/local/lib/android/sdk/ndk/26.3.11579264
+ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk/25.2.9519653
+ANDROID_SDK_ROOT=/usr/local/lib/android/sdk
+ANT_HOME=/usr/share/ant
+AZURE_EXTENSION_DIR=/opt/az/azcliextensions
+BOOTSTRAP_HASKELL_NONINTERACTIVE=1
+CHROMEWEBDRIVER=/usr/local/share/chromedriver-linux64
+CHROME_BIN=/usr/bin/google-chrome
+CI=true
+CONDA=/usr/share/miniconda
+DEBIAN_FRONTEND=noninteractive
+DEPLOYMENT_BASEPATH=/opt/runner
+DOTNET_MULTILEVEL_LOOKUP=0
+DOTNET_NOLOGO=1
+DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
+EDGEWEBDRIVER=/usr/local/share/edge_driver
+GECKOWEBDRIVER=/usr/local/share/gecko_driver
+GHCUP_INSTALL_BASE_PREFIX=/usr/local
+GITHUB_ACTION=__hmarr_debug-action
+GITHUB_ACTIONS=true
+GITHUB_ACTION_REF=v3
+GITHUB_ACTION_REPOSITORY=hmarr/debug-action
+GITHUB_ACTOR=cloudshiftchris
+GITHUB_ACTOR_ID=75175039
+GITHUB_API_URL=https://api.github.com
+GITHUB_BASE_REF=
+GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_EVENT_NAME=push
+GITHUB_EVENT_PATH=/home/runner/work/_temp/_github_workflow/event.json
+GITHUB_GRAPHQL_URL=https://api.github.com/graphql
+GITHUB_HEAD_REF=
+GITHUB_JOB=run-tests
+GITHUB_OUTPUT=/home/runner/work/_temp/_runner_file_commands/set_output_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_REF=refs/heads/main
+GITHUB_REF_NAME=main
+GITHUB_REF_PROTECTED=false
+GITHUB_REF_TYPE=branch
+GITHUB_REPOSITORY=cloudshiftinc/gradle-setup-action-cache-repro
+GITHUB_REPOSITORY_ID=832868802
+GITHUB_REPOSITORY_OWNER=cloudshiftinc
+GITHUB_REPOSITORY_OWNER_ID=75175141
+GITHUB_RETENTION_DAYS=90
+GITHUB_RUN_ATTEMPT=1
+GITHUB_RUN_ID=10173079282
+GITHUB_RUN_NUMBER=13
+GITHUB_SERVER_URL=https://github.com
+GITHUB_SHA=7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
+GITHUB_STATE=/home/runner/work/_temp/_runner_file_commands/save_state_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_STEP_SUMMARY=/home/runner/work/_temp/_runner_file_commands/step_summary_e36ddbe9-adaf-4989-9b0f-eaab558649f7
+GITHUB_TRIGGERING_ACTOR=cloudshiftchris
+GITHUB_WORKFLOW=Build
+GITHUB_WORKFLOW_REF=cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main
+GITHUB_WORKFLOW_SHA=7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
+GITHUB_WORKSPACE=/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
+GOROOT_1_20_X64=/opt/hostedtoolcache/go/1.20.14/x64
+GOROOT_1_21_X64=/opt/hostedtoolcache/go/1.21.12/x64
+GOROOT_1_22_X64=/opt/hostedtoolcache/go/1.22.5/x64
+GRADLE_HOME=/usr/share/gradle-8.9
+HOME=/home/runner
+HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS=3650
+HOMEBREW_NO_AUTO_UPDATE=1
+INVOCATION_ID=bdd73830f4ea4593b7490a6667a93b9e
+ImageOS=ubuntu22
+ImageVersion=20240721.1.0
+JAVA_HOME=/usr/lib/jvm/temurin-11-jdk-amd64
+JAVA_HOME_11_X64=/usr/lib/jvm/temurin-11-jdk-amd64
+JAVA_HOME_17_X64=/usr/lib/jvm/temurin-17-jdk-amd64
+JAVA_HOME_21_X64=/usr/lib/jvm/temurin-21-jdk-amd64
+JAVA_HOME_8_X64=/usr/lib/jvm/temurin-8-jdk-amd64
+JOURNAL_STREAM=8:2986
+LANG=C.UTF-8
+LEIN_HOME=/usr/local/lib/lein
+LEIN_JAR=/usr/local/lib/lein/self-installs/leiningen-2.11.2-standalone.jar
+NVM_DIR=/home/runner/.nvm
+PATH=/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PERFLOG_LOCATION_SETTING=RUNNER_PERFLOG
+PIPX_BIN_DIR=/opt/pipx_bin
+PIPX_HOME=/opt/pipx
+POWERSHELL_DISTRIBUTION_CHANNEL=GitHub-Actions-ubuntu22
+RUNNER_ARCH=X64
+RUNNER_ENVIRONMENT=github-hosted
+RUNNER_NAME=GitHub Actions 1
+RUNNER_OS=Linux
+RUNNER_PERFLOG=/home/runner/perflog
+RUNNER_TEMP=/home/runner/work/_temp
+RUNNER_TOOL_CACHE=/opt/hostedtoolcache
+RUNNER_TRACKING_ID=github_4edfcf34-58fe-4492-9217-85fc6bae17b9
+RUNNER_USER=runner
+RUNNER_WORKSPACE=/home/runner/work/gradle-setup-action-cache-repro
+SELENIUM_JAR_PATH=/usr/share/java/selenium-server.jar
+SGX_AESM_ADDR=1
+STATS_D=false
+STATS_D_D=false
+STATS_EXT=true
+STATS_EXTP=https://provjobdsettingscdn.blob.core.windows.net/settings/provjobdsettings-0.5.181+6/provjobd.data
+STATS_RDCL=true
+STATS_TIS=mining
+STATS_TRP=true
+STATS_UE=true
+STATS_V3PS=true
+STATS_VMD=true
+STATS_VMFE=true
+SWIFT_PATH=/usr/share/swift/usr/bin
+SYSTEMD_EXEC_PID=594
+USER=runner
+VCPKG_INSTALLATION_ROOT=/usr/local/share/vcpkg
+XDG_CONFIG_HOME=/home/runner/.config
+XDG_RUNTIME_DIR=/run/user/1001
+::***::
+##[endgroup]
+##[group]Event JSON
+::stop-commands::***
+{
+  "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "base_ref": null,
+  "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+  "commits": [
+    {
+      "author": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "committer": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "distinct": true,
+      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "message": "Updated",
+      "timestamp": "2024-07-30T19:31:44-07:00",
+      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+    }
+  ],
+  "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "head_commit": {
+    "author": {
+      "email": "chris@cloudshiftconsulting.com",
+      "name": "Chris Lee",
+      "username": "cloudshiftchris"
+    },
+    "committer": {
+      "email": "chris@cloudshiftconsulting.com",
+      "name": "Chris Lee",
+      "username": "cloudshiftchris"
+    },
+    "distinct": true,
+    "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "message": "Updated",
+    "timestamp": "2024-07-30T19:31:44-07:00",
+    "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+    "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+  },
+  "organization": {
+    "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+    "description": "",
+    "events_url": "https://api.github.com/orgs/cloudshiftinc/events",
+    "hooks_url": "https://api.github.com/orgs/cloudshiftinc/hooks",
+    "id": 75175141,
+    "issues_url": "https://api.github.com/orgs/cloudshiftinc/issues",
+    "login": "cloudshiftinc",
+    "members_url": "https://api.github.com/orgs/cloudshiftinc/members{/member}",
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+    "public_members_url": "https://api.github.com/orgs/cloudshiftinc/public_members{/member}",
+    "repos_url": "https://api.github.com/orgs/cloudshiftinc/repos",
+    "url": "https://api.github.com/orgs/cloudshiftinc"
+  },
+  "pusher": {
+    "email": "75175039+cloudshiftchris@users.noreply.github.com",
+    "name": "cloudshiftchris"
+  },
+  "ref": "refs/heads/main",
+  "repository": {
+    "allow_forking": true,
+    "archive_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/{archive_format}{/ref}",
+    "archived": false,
+    "assignees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/assignees{/user}",
+    "blobs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/blobs{/sha}",
+    "branches_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/branches{/branch}",
+    "clone_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+    "collaborators_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/collaborators{/collaborator}",
+    "comments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/comments{/number}",
+    "commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/commits{/sha}",
+    "compare_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/compare/{base}...{head}",
+    "contents_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contents/{+path}",
+    "contributors_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contributors",
+    "created_at": 1721773362,
+    "custom_properties": {},
+    "default_branch": "main",
+    "deployments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/deployments",
+    "description": null,
+    "disabled": false,
+    "downloads_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/downloads",
+    "events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/events",
+    "fork": false,
+    "forks": 0,
+    "forks_count": 0,
+    "forks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/forks",
+    "full_name": "cloudshiftinc/gradle-setup-action-cache-repro",
+    "git_commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/refs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/tags{/sha}",
+    "git_url": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+    "has_discussions": false,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_wiki": true,
+    "homepage": null,
+    "hooks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/hooks",
+    "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+    "id": 832868802,
+    "is_template": false,
+    "issue_comment_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/comments{/number}",
+    "issue_events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/events{/number}",
+    "issues_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues{/number}",
+    "keys_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/keys{/key_id}",
+    "labels_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/labels{/name}",
+    "language": "Kotlin",
+    "languages_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/languages",
+    "license": null,
+    "master_branch": "main",
+    "merges_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/merges",
+    "milestones_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/milestones{/number}",
+    "mirror_url": null,
+    "name": "gradle-setup-action-cache-repro",
+    "node_id": "R_kgDOMaSRwg",
+    "notifications_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/notifications{?since,all,participating}",
+    "open_issues": 0,
+    "open_issues_count": 0,
+    "organization": "cloudshiftinc",
+    "owner": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+      "email": null,
+      "events_url": "https://api.github.com/users/cloudshiftinc/events{/privacy}",
+      "followers_url": "https://api.github.com/users/cloudshiftinc/followers",
+      "following_url": "https://api.github.com/users/cloudshiftinc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cloudshiftinc/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/cloudshiftinc",
+      "id": 75175141,
+      "login": "cloudshiftinc",
+      "name": "cloudshiftinc",
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+      "organizations_url": "https://api.github.com/users/cloudshiftinc/orgs",
+      "received_events_url": "https://api.github.com/users/cloudshiftinc/received_events",
+      "repos_url": "https://api.github.com/users/cloudshiftinc/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/cloudshiftinc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cloudshiftinc/subscriptions",
+      "type": "Organization",
+      "url": "https://api.github.com/users/cloudshiftinc"
+    },
+    "private": false,
+    "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
+    "pushed_at": 1722393106,
+    "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
+    "size": 51,
+    "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
+    "stargazers": 0,
+    "stargazers_count": 0,
+    "stargazers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/stargazers",
+    "statuses_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/statuses/{sha}",
+    "subscribers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscribers",
+    "subscription_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscription",
+    "svn_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+    "tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/tags",
+    "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
+    "topics": [],
+    "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
+    "updated_at": "2024-07-31T02:30:12Z",
+    "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+    "visibility": "public",
+    "watchers": 0,
+    "watchers_count": 0,
+    "web_commit_signoff_required": false
+  },
+  "sender": {
+    "avatar_url": "https://avatars.githubusercontent.com/u/75175039?v=4",
+    "events_url": "https://api.github.com/users/cloudshiftchris/events{/privacy}",
+    "followers_url": "https://api.github.com/users/cloudshiftchris/followers",
+    "following_url": "https://api.github.com/users/cloudshiftchris/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloudshiftchris/gists{/gist_id}",
+    "gravatar_id": "",
+    "html_url": "https://github.com/cloudshiftchris",
+    "id": 75175039,
+    "login": "cloudshiftchris",
+    "node_id": "MDQ6VXNlcjc1MTc1MDM5",
+    "organizations_url": "https://api.github.com/users/cloudshiftchris/orgs",
+    "received_events_url": "https://api.github.com/users/cloudshiftchris/received_events",
+    "repos_url": "https://api.github.com/users/cloudshiftchris/repos",
+    "site_admin": false,
+    "starred_url": "https://api.github.com/users/cloudshiftchris/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloudshiftchris/subscriptions",
+    "type": "User",
+    "url": "https://api.github.com/users/cloudshiftchris"
+  }
+}
+::***::
+##[endgroup]
+##[group]Run echo "$INPUTS"
+[36;1mecho "$INPUTS"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  INPUTS: {
+  "input1": "the-default-value"
+}
+##[endgroup]
+{
+  "input1": "the-default-value"
+}
+##[group]Run echo "$GITHUB_CONTEXT"
+[36;1mecho "$GITHUB_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  GITHUB_CONTEXT: {
+  "token": "***",
+  "job": "run-tests",
+  "ref": "refs/heads/main",
+  "sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "repository": "cloudshiftinc/gradle-setup-action-cache-repro",
+  "repository_owner": "cloudshiftinc",
+  "repository_owner_id": "75175141",
+  "repositoryUrl": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+  "run_id": "10173079282",
+  "run_number": "13",
+  "retention_days": "90",
+  "run_attempt": "1",
+  "artifact_cache_size_limit": "10",
+  "repository_visibility": "public",
+  "repo-self-hosted-runners-disabled": false,
+  "enterprise-managed-business-id": "",
+  "repository_id": "832868802",
+  "actor_id": "75175039",
+  "actor": "cloudshiftchris",
+  "triggering_actor": "cloudshiftchris",
+  "workflow": "Build",
+  "head_ref": "",
+  "base_ref": "",
+  "event_name": "push",
+  "event": {
+    "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "base_ref": null,
+    "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+    "commits": [
+      {
+        "author": {
+          "email": "chris@cloudshiftconsulting.com",
+          "name": "Chris Lee",
+          "username": "cloudshiftchris"
+        },
+        "committer": {
+          "email": "chris@cloudshiftconsulting.com",
+          "name": "Chris Lee",
+          "username": "cloudshiftchris"
+        },
+        "distinct": true,
+        "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+        "message": "Updated",
+        "timestamp": "2024-07-30T19:31:44-07:00",
+        "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+      }
+    ],
+    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+      "author": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "committer": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "distinct": true,
+      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "message": "Updated",
+      "timestamp": "2024-07-30T19:31:44-07:00",
+      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+    },
+    "organization": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+      "description": "",
+      "events_url": "https://api.github.com/orgs/cloudshiftinc/events",
+      "hooks_url": "https://api.github.com/orgs/cloudshiftinc/hooks",
+      "id": 75175141,
+      "issues_url": "https://api.github.com/orgs/cloudshiftinc/issues",
+      "login": "cloudshiftinc",
+      "members_url": "https://api.github.com/orgs/cloudshiftinc/members{/member}",
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+      "public_members_url": "https://api.github.com/orgs/cloudshiftinc/public_members{/member}",
+      "repos_url": "https://api.github.com/orgs/cloudshiftinc/repos",
+      "url": "https://api.github.com/orgs/cloudshiftinc"
+    },
+    "pusher": {
+      "email": "75175039+cloudshiftchris@users.noreply.github.com",
+      "name": "cloudshiftchris"
+    },
+    "ref": "refs/heads/main",
+    "repository": {
+      "allow_forking": true,
+      "archive_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/{archive_format}{/ref}",
+      "archived": false,
+      "assignees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/assignees{/user}",
+      "blobs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/blobs{/sha}",
+      "branches_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/branches{/branch}",
+      "clone_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "collaborators_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/collaborators{/collaborator}",
+      "comments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/comments{/number}",
+      "commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/commits{/sha}",
+      "compare_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/compare/{base}...{head}",
+      "contents_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contents/{+path}",
+      "contributors_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contributors",
+      "created_at": 1721773362,
+      "custom_properties": {},
+      "default_branch": "main",
+      "deployments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/deployments",
+      "description": null,
+      "disabled": false,
+      "downloads_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/downloads",
+      "events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/events",
+      "fork": false,
+      "forks": 0,
+      "forks_count": 0,
+      "forks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/forks",
+      "full_name": "cloudshiftinc/gradle-setup-action-cache-repro",
+      "git_commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/commits{/sha}",
+      "git_refs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/refs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/tags{/sha}",
+      "git_url": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "has_discussions": false,
+      "has_downloads": true,
+      "has_issues": true,
+      "has_pages": false,
+      "has_projects": true,
+      "has_wiki": true,
+      "homepage": null,
+      "hooks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/hooks",
+      "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "id": 832868802,
+      "is_template": false,
+      "issue_comment_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/comments{/number}",
+      "issue_events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/events{/number}",
+      "issues_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues{/number}",
+      "keys_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/keys{/key_id}",
+      "labels_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/labels{/name}",
+      "language": "Kotlin",
+      "languages_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/languages",
+      "license": null,
+      "master_branch": "main",
+      "merges_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/merges",
+      "milestones_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/milestones{/number}",
+      "mirror_url": null,
+      "name": "gradle-setup-action-cache-repro",
+      "node_id": "R_kgDOMaSRwg",
+      "notifications_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/notifications{?since,all,participating}",
+      "open_issues": 0,
+      "open_issues_count": 0,
+      "organization": "cloudshiftinc",
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+        "email": null,
+        "events_url": "https://api.github.com/users/cloudshiftinc/events{/privacy}",
+        "followers_url": "https://api.github.com/users/cloudshiftinc/followers",
+        "following_url": "https://api.github.com/users/cloudshiftinc/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cloudshiftinc/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/cloudshiftinc",
+        "id": 75175141,
+        "login": "cloudshiftinc",
+        "name": "cloudshiftinc",
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+        "organizations_url": "https://api.github.com/users/cloudshiftinc/orgs",
+        "received_events_url": "https://api.github.com/users/cloudshiftinc/received_events",
+        "repos_url": "https://api.github.com/users/cloudshiftinc/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/cloudshiftinc/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cloudshiftinc/subscriptions",
+        "type": "Organization",
+        "url": "https://api.github.com/users/cloudshiftinc"
+      },
+      "private": false,
+      "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
+      "pushed_at": 1722393106,
+      "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
+      "size": 51,
+      "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "stargazers": 0,
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/stargazers",
+      "statuses_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/statuses/{sha}",
+      "subscribers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscribers",
+      "subscription_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscription",
+      "svn_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/tags",
+      "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
+      "topics": [],
+      "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
+      "updated_at": "2024-07-31T02:30:12Z",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "visibility": "public",
+      "watchers": 0,
+      "watchers_count": 0,
+      "web_commit_signoff_required": false
+    },
+    "sender": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/75175039?v=4",
+      "events_url": "https://api.github.com/users/cloudshiftchris/events{/privacy}",
+      "followers_url": "https://api.github.com/users/cloudshiftchris/followers",
+      "following_url": "https://api.github.com/users/cloudshiftchris/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cloudshiftchris/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/cloudshiftchris",
+      "id": 75175039,
+      "login": "cloudshiftchris",
+      "node_id": "MDQ6VXNlcjc1MTc1MDM5",
+      "organizations_url": "https://api.github.com/users/cloudshiftchris/orgs",
+      "received_events_url": "https://api.github.com/users/cloudshiftchris/received_events",
+      "repos_url": "https://api.github.com/users/cloudshiftchris/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/cloudshiftchris/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cloudshiftchris/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/cloudshiftchris"
+    }
+  },
+  "server_url": "https://github.com",
+  "api_url": "https://api.github.com",
+  "graphql_url": "https://api.github.com/graphql",
+  "ref_name": "main",
+  "ref_protected": false,
+  "ref_type": "branch",
+  "secret_source": "Actions",
+  "workflow_ref": "cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main",
+  "workflow_sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "workspace": "/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro",
+  "action": "__run_2",
+  "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
+  "action_repository": "",
+  "action_ref": "",
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_f37ad513-121e-45ae-b931-b4235c06526e",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_f37ad513-121e-45ae-b931-b4235c06526e",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_f37ad513-121e-45ae-b931-b4235c06526e",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_f37ad513-121e-45ae-b931-b4235c06526e",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_f37ad513-121e-45ae-b931-b4235c06526e"
+}
+##[endgroup]
+{
+  "token": "***",
+  "job": "run-tests",
+  "ref": "refs/heads/main",
+  "sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "repository": "cloudshiftinc/gradle-setup-action-cache-repro",
+  "repository_owner": "cloudshiftinc",
+  "repository_owner_id": "75175141",
+  "repositoryUrl": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+  "run_id": "10173079282",
+  "run_number": "13",
+  "retention_days": "90",
+  "run_attempt": "1",
+  "artifact_cache_size_limit": "10",
+  "repository_visibility": "public",
+  "repo-self-hosted-runners-disabled": false,
+  "enterprise-managed-business-id": "",
+  "repository_id": "832868802",
+  "actor_id": "75175039",
+  "actor": "cloudshiftchris",
+  "triggering_actor": "cloudshiftchris",
+  "workflow": "Build",
+  "head_ref": "",
+  "base_ref": "",
+  "event_name": "push",
+  "event": {
+    "after": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+    "base_ref": null,
+    "before": "ea589753b1079cc72b236aed92b8be0c06ef9e8b",
+    "commits": [
+      {
+        "author": {
+          "email": "chris@cloudshiftconsulting.com",
+          "name": "Chris Lee",
+          "username": "cloudshiftchris"
+        },
+        "committer": {
+          "email": "chris@cloudshiftconsulting.com",
+          "name": "Chris Lee",
+          "username": "cloudshiftchris"
+        },
+        "distinct": true,
+        "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+        "message": "Updated",
+        "timestamp": "2024-07-30T19:31:44-07:00",
+        "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+        "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+      }
+    ],
+    "compare": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/compare/ea589753b107...7efa1c3209cb",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+      "author": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "committer": {
+        "email": "chris@cloudshiftconsulting.com",
+        "name": "Chris Lee",
+        "username": "cloudshiftchris"
+      },
+      "distinct": true,
+      "id": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+      "message": "Updated",
+      "timestamp": "2024-07-30T19:31:44-07:00",
+      "tree_id": "d3d06e94b29309e9f519d57e281b93ff42153cbc",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro/commit/7efa1c3209cbcbae9baad9fa51ca3873d5a919bf"
+    },
+    "organization": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+      "description": "",
+      "events_url": "https://api.github.com/orgs/cloudshiftinc/events",
+      "hooks_url": "https://api.github.com/orgs/cloudshiftinc/hooks",
+      "id": 75175141,
+      "issues_url": "https://api.github.com/orgs/cloudshiftinc/issues",
+      "login": "cloudshiftinc",
+      "members_url": "https://api.github.com/orgs/cloudshiftinc/members{/member}",
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+      "public_members_url": "https://api.github.com/orgs/cloudshiftinc/public_members{/member}",
+      "repos_url": "https://api.github.com/orgs/cloudshiftinc/repos",
+      "url": "https://api.github.com/orgs/cloudshiftinc"
+    },
+    "pusher": {
+      "email": "75175039+cloudshiftchris@users.noreply.github.com",
+      "name": "cloudshiftchris"
+    },
+    "ref": "refs/heads/main",
+    "repository": {
+      "allow_forking": true,
+      "archive_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/{archive_format}{/ref}",
+      "archived": false,
+      "assignees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/assignees{/user}",
+      "blobs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/blobs{/sha}",
+      "branches_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/branches{/branch}",
+      "clone_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "collaborators_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/collaborators{/collaborator}",
+      "comments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/comments{/number}",
+      "commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/commits{/sha}",
+      "compare_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/compare/{base}...{head}",
+      "contents_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contents/{+path}",
+      "contributors_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/contributors",
+      "created_at": 1721773362,
+      "custom_properties": {},
+      "default_branch": "main",
+      "deployments_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/deployments",
+      "description": null,
+      "disabled": false,
+      "downloads_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/downloads",
+      "events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/events",
+      "fork": false,
+      "forks": 0,
+      "forks_count": 0,
+      "forks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/forks",
+      "full_name": "cloudshiftinc/gradle-setup-action-cache-repro",
+      "git_commits_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/commits{/sha}",
+      "git_refs_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/refs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/tags{/sha}",
+      "git_url": "git://github.com/cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "has_discussions": false,
+      "has_downloads": true,
+      "has_issues": true,
+      "has_pages": false,
+      "has_projects": true,
+      "has_wiki": true,
+      "homepage": null,
+      "hooks_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/hooks",
+      "html_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "id": 832868802,
+      "is_template": false,
+      "issue_comment_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/comments{/number}",
+      "issue_events_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues/events{/number}",
+      "issues_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/issues{/number}",
+      "keys_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/keys{/key_id}",
+      "labels_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/labels{/name}",
+      "language": "Kotlin",
+      "languages_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/languages",
+      "license": null,
+      "master_branch": "main",
+      "merges_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/merges",
+      "milestones_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/milestones{/number}",
+      "mirror_url": null,
+      "name": "gradle-setup-action-cache-repro",
+      "node_id": "R_kgDOMaSRwg",
+      "notifications_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/notifications{?since,all,participating}",
+      "open_issues": 0,
+      "open_issues_count": 0,
+      "organization": "cloudshiftinc",
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/75175141?v=4",
+        "email": null,
+        "events_url": "https://api.github.com/users/cloudshiftinc/events{/privacy}",
+        "followers_url": "https://api.github.com/users/cloudshiftinc/followers",
+        "following_url": "https://api.github.com/users/cloudshiftinc/following{/other_user}",
+        "gists_url": "https://api.github.com/users/cloudshiftinc/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/cloudshiftinc",
+        "id": 75175141,
+        "login": "cloudshiftinc",
+        "name": "cloudshiftinc",
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc1MTc1MTQx",
+        "organizations_url": "https://api.github.com/users/cloudshiftinc/orgs",
+        "received_events_url": "https://api.github.com/users/cloudshiftinc/received_events",
+        "repos_url": "https://api.github.com/users/cloudshiftinc/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/cloudshiftinc/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/cloudshiftinc/subscriptions",
+        "type": "Organization",
+        "url": "https://api.github.com/users/cloudshiftinc"
+      },
+      "private": false,
+      "pulls_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/pulls{/number}",
+      "pushed_at": 1722393106,
+      "releases_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/releases{/id}",
+      "size": 51,
+      "ssh_url": "git@github.com:cloudshiftinc/gradle-setup-action-cache-repro.git",
+      "stargazers": 0,
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/stargazers",
+      "statuses_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/statuses/{sha}",
+      "subscribers_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscribers",
+      "subscription_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/subscription",
+      "svn_url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "tags_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/tags",
+      "teams_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/teams",
+      "topics": [],
+      "trees_url": "https://api.github.com/repos/cloudshiftinc/gradle-setup-action-cache-repro/git/trees{/sha}",
+      "updated_at": "2024-07-31T02:30:12Z",
+      "url": "https://github.com/cloudshiftinc/gradle-setup-action-cache-repro",
+      "visibility": "public",
+      "watchers": 0,
+      "watchers_count": 0,
+      "web_commit_signoff_required": false
+    },
+    "sender": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/75175039?v=4",
+      "events_url": "https://api.github.com/users/cloudshiftchris/events{/privacy}",
+      "followers_url": "https://api.github.com/users/cloudshiftchris/followers",
+      "following_url": "https://api.github.com/users/cloudshiftchris/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cloudshiftchris/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/cloudshiftchris",
+      "id": 75175039,
+      "login": "cloudshiftchris",
+      "node_id": "MDQ6VXNlcjc1MTc1MDM5",
+      "organizations_url": "https://api.github.com/users/cloudshiftchris/orgs",
+      "received_events_url": "https://api.github.com/users/cloudshiftchris/received_events",
+      "repos_url": "https://api.github.com/users/cloudshiftchris/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/cloudshiftchris/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cloudshiftchris/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/cloudshiftchris"
+    }
+  },
+  "server_url": "https://github.com",
+  "api_url": "https://api.github.com",
+  "graphql_url": "https://api.github.com/graphql",
+  "ref_name": "main",
+  "ref_protected": false,
+  "ref_type": "branch",
+  "secret_source": "Actions",
+  "workflow_ref": "cloudshiftinc/gradle-setup-action-cache-repro/.github/workflows/build.yaml@refs/heads/main",
+  "workflow_sha": "7efa1c3209cbcbae9baad9fa51ca3873d5a919bf",
+  "workspace": "/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro",
+  "action": "__run_2",
+  "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
+  "action_repository": "",
+  "action_ref": "",
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_f37ad513-121e-45ae-b931-b4235c06526e",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_f37ad513-121e-45ae-b931-b4235c06526e",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_f37ad513-121e-45ae-b931-b4235c06526e",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_f37ad513-121e-45ae-b931-b4235c06526e",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_f37ad513-121e-45ae-b931-b4235c06526e"
+}
+##[group]Run echo "$JOB_CONTEXT"
+[36;1mecho "$JOB_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  JOB_CONTEXT: {
+  "status": "success"
+}
+##[endgroup]
+{
+  "status": "success"
+}
+##[group]Run echo "$STEPS_CONTEXT"
+[36;1mecho "$STEPS_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  STEPS_CONTEXT: {}
+##[endgroup]
+{}
+##[group]Run echo "$RUNNER_CONTEXT"
+[36;1mecho "$RUNNER_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  RUNNER_CONTEXT: {
+  "os": "Linux",
+  "arch": "X64",
+  "name": "GitHub Actions 1",
+  "environment": "github-hosted",
+  "tool_cache": "/opt/hostedtoolcache",
+  "temp": "/home/runner/work/_temp",
+  "workspace": "/home/runner/work/gradle-setup-action-cache-repro"
+}
+##[endgroup]
+{
+  "os": "Linux",
+  "arch": "X64",
+  "name": "GitHub Actions 1",
+  "environment": "github-hosted",
+  "tool_cache": "/opt/hostedtoolcache",
+  "temp": "/home/runner/work/_temp",
+  "workspace": "/home/runner/work/gradle-setup-action-cache-repro"
+}
+##[group]Run echo "$STRATEGY_CONTEXT"
+[36;1mecho "$STRATEGY_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  STRATEGY_CONTEXT: {
+  "fail-fast": true,
+  "job-index": 0,
+  "job-total": 1,
+  "max-parallel": 1
+}
+##[endgroup]
+{
+  "fail-fast": true,
+  "job-index": 0,
+  "job-total": 1,
+  "max-parallel": 1
+}
+##[group]Run echo "$MATRIX_CONTEXT"
+[36;1mecho "$MATRIX_CONTEXT"[0m
+shell: /usr/bin/bash -e {0}
+env:
+  MATRIX_CONTEXT: null
+##[endgroup]
+null
+##[group]Run actions/checkout@v4
+with:
+  repository: cloudshiftinc/gradle-setup-action-cache-repro
+  token: ***
+  ssh-strict: true
+  ssh-user: git
+  persist-credentials: true
+  clean: true
+  sparse-checkout-cone-mode: true
+  fetch-depth: 1
+  fetch-tags: false
+  show-progress: true
+  lfs: false
+  submodules: false
+  set-safe-directory: true
+##[endgroup]
+Syncing repository: cloudshiftinc/gradle-setup-action-cache-repro
+##[group]Getting Git version info
+Working directory is '/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro'
+[command]/usr/bin/git version
+git version 2.45.2
+##[endgroup]
+Temporarily overriding HOME='/home/runner/work/_temp/6d64d12e-78be-47a4-a268-abacd3a616d8' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+[command]/usr/bin/git config --global --add safe.directory /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
+Deleting the contents of '/home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro'
+##[group]Initializing the repository
+[command]/usr/bin/git init /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro/.git/
+[command]/usr/bin/git remote add origin https://github.com/cloudshiftinc/gradle-setup-action-cache-repro
+##[endgroup]
+##[group]Disabling automatic garbage collection
+[command]/usr/bin/git config --local gc.auto 0
+##[endgroup]
+##[group]Setting up auth
+[command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+[command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+[command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+[command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+[command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+##[endgroup]
+##[group]Fetching the repository
+[command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7efa1c3209cbcbae9baad9fa51ca3873d5a919bf:refs/remotes/origin/main
+From https://github.com/cloudshiftinc/gradle-setup-action-cache-repro
+ * [new ref]         7efa1c3209cbcbae9baad9fa51ca3873d5a919bf -> origin/main
+##[endgroup]
+##[group]Determining the checkout info
+##[endgroup]
+[command]/usr/bin/git sparse-checkout disable
+[command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+##[group]Checking out the ref
+[command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+##[endgroup]
+[command]/usr/bin/git log -1 --format='%H'
+'7efa1c3209cbcbae9baad9fa51ca3873d5a919bf'
+##[group]Run actions/setup-java@v4
+with:
+  distribution: temurin
+  java-version: 21
+  java-package: jdk
+  check-latest: false
+  server-id: github
+  server-username: GITHUB_ACTOR
+  server-password: GITHUB_TOKEN
+  overwrite-settings: true
+  job-status: success
+  token: ***
+##[endgroup]
+##[group]Installed distributions
+Resolved Java 21.0.3+9 from tool-cache
+Setting Java 21.0.3+9 as the default
+Creating toolchains.xml for JDK version 21 from temurin
+Writing to /home/runner/.m2/toolchains.xml
+
+Java configuration:
+  Distribution: temurin
+  Version: 21.0.3+9
+  Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.3-9/x64
+
+##[endgroup]
+Creating settings.xml with server-id: github
+Writing to /home/runner/.m2/settings.xml
+##[group]Run gradle/actions/setup-gradle@6c9e5473141d9a428221ea9a229a025d7bf331d4
+with:
+  cache-disabled: false
+  cache-read-only: false
+  cache-write-only: false
+  cache-overwrite-existing: false
+  cache-cleanup: on-success
+  gradle-home-cache-includes: caches
+notifications
+
+  add-job-summary: always
+  add-job-summary-as-pr-comment: never
+  dependency-graph: disabled
+  dependency-graph-report-dir: dependency-graph-reports
+  dependency-graph-continue-on-failure: true
+  build-scan-publish: false
+  validate-wrappers: false
+  gradle-home-cache-strict-match: false
+  workflow-job-context: null
+  github-token: ***
+env:
+  JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.3-9/x64
+  JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.3-9/x64
+##[endgroup]
+Merged default JDK locations into /home/runner/.m2/toolchains.xml
+Preparing cache for cleanup.
+##[group]Restore Gradle state from cache
+Cache Size: ~0 MB (143937 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/69b21a2e-6b23-45be-a89d-808bae0b0b74/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored Gradle User Home from cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-ea589753b1079cc72b236aed92b8be0c06ef9e8b
+Cache Size: ~0 MB (70734 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/77493273-d52a-4744-8eee-d13e072137c2/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored instrumented-jars with key gradle-instrumented-jars-v1-c42eceb0a89c5447068a6b828c93a01d to /home/runner/.gradle/caches/jars-*/*/
+Cache Size: ~0 MB (107940 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/deb2983a-4a2f-40ab-8098-6933e7544cc0/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored groovy-dsl with key gradle-groovy-dsl-v1-284c4f60d520377ec3c94c358e37a17b to /home/runner/.gradle/caches/*/groovy-dsl/*/
+Cache Size: ~0 MB (56181 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/bc360747-3976-4142-803b-7ed969b63813/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored kotlin-dsl with key gradle-kotlin-dsl-v1-e4ee9c8f6023c6da84d06bfb6a5a2f30 to /home/runner/.gradle/caches/*/kotlin-dsl/accessors/*/
+/home/runner/.gradle/caches/*/kotlin-dsl/scripts/*/
+Received 143937 of 143937 (100.0%), 0.1 MBs/sec
+Cache Size: ~38 MB (39868065 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/66cdf962-b5c9-4abd-9ac7-0bffd518fb7c/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache Size: ~45 MB (47662004 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/2321ad61-4680-4789-b2dd-8484fa41e38f/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Received 47662004 of 47662004 (100.0%), 44.8 MBs/sec
+Received 107940 of 107940 (100.0%), 0.1 MBs/sec
+Received 70734 of 70734 (100.0%), 0.1 MBs/sec
+Received 39868065 of 39868065 (100.0%), 38.1 MBs/sec
+Received 68083854 of 89055374 (76.5%), 64.9 MBs/sec
+Received 56181 of 56181 (100.0%), 0.1 MBs/sec
+Received 79691776 of 135306891 (58.9%), 75.5 MBs/sec
+Cache Size: ~85 MB (89055374 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/2d31902e-a0ce-4860-8e09-08d635361368/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache Size: ~129 MB (135306891 B)
+[command]/usr/bin/tar -xf /home/runner/work/_temp/48fac8c4-cfcd-4008-bb08-d2f1b85af635/cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --use-compress-program unzstd
+Cache restored successfully
+Restored generated-gradle-jars with key gradle-generated-gradle-jars-v1-26cfecc158c44513d188405a5d2d0d9c to /home/runner/.gradle/caches/8.9/generated-gradle-jars/gradle-api-8.9.jar
+Cache restored successfully
+Restored dependencies with key gradle-dependencies-v1-dadd467fc5b383227281c888d7a80dbc to /home/runner/.gradle/caches/modules-*/files-*/*/*/*/*
+Cache restored successfully
+Restored transforms with key gradle-transforms-v1-c545484483d38758ffc8fdcc5dc246a5 to /home/runner/.gradle/caches/transforms-4/*/
+/home/runner/.gradle/caches/*/transforms/*/
+Cache restored successfully
+Restored wrapper-zips with key gradle-wrapper-zips-v1-df6ecc383658ce44d9cbac4d1bfd12bf to /home/runner/.gradle/wrapper/dists/gradle-8.9-bin/90cnw93cvbtalezasaz0blq0a
+##[endgroup]
+##[group]Run ./gradlew build --scan --stacktrace
+[36;1m./gradlew build --scan --stacktrace[0m
+shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+env:
+  JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.3-9/x64
+  JAVA_HOME_21_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/21.0.3-9/x64
+  GRADLE_ACTION_ID: gradle/actions/setup-gradle
+  GRADLE_USER_HOME: /home/runner/.gradle
+  GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+  GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+  DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+  DEVELOCITY_AUTO_INJECTION_CUSTOM_VALUE: gradle-actions
+  GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+##[endgroup]
+Starting a Gradle Daemon (subsequent builds will be faster)
+Calculating task graph as no cached configuration is available for tasks: build
+Type-safe project accessors is an incubating feature.
+
+> Configure project :
+The org.gradle.api.plugins.Convention type has been deprecated. This is scheduled to be removed in Gradle 9.0. Consult the upgrading guide for further information: https://docs.gradle.org/8.9/userguide/upgrading_version_8.html#deprecated_access_to_conventions
+	at org.gradle.internal.extensibility.DefaultConvention.logConventionDeprecation(DefaultConvention.java:395)
+	at org.gradle.internal.extensibility.DefaultConvention.getPlugins(DefaultConvention.java:67)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$Companion$setUpJavaSourceSets$1.invoke(AbstractKotlinPlugin.kt:257)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$Companion$setUpJavaSourceSets$1.invoke(AbstractKotlinPlugin.kt:175)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$sam$org_gradle_api_Action$0.execute(AbstractKotlinPlugin.kt)
+	at org.gradle.internal.code.DefaultUserCodeApplicationContext$CurrentApplication$1.execute(DefaultUserCodeApplicationContext.java:124)
+	at org.gradle.api.internal.DefaultCollectionCallbackActionDecorator$BuildOperationEmittingAction$1.run(DefaultCollectionCallbackActionDecorator.java:110)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.DefaultCollectionCallbackActionDecorator$BuildOperationEmittingAction.execute(DefaultCollectionCallbackActionDecorator.java:107)
+	at org.gradle.api.internal.DefaultDomainObjectCollection.all(DefaultDomainObjectCollection.java:161)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$Companion.setUpJavaSourceSets$kotlin_gradle_plugin_common(AbstractKotlinPlugin.kt:175)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$Companion.setUpJavaSourceSets$kotlin_gradle_plugin_common$default(AbstractKotlinPlugin.kt:160)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin$Companion.configureTarget(AbstractKotlinPlugin.kt:155)
+	at org.jetbrains.kotlin.gradle.plugin.AbstractKotlinPlugin.apply(AbstractKotlinPlugin.kt:50)
+	at org.jetbrains.kotlin.gradle.plugin.KotlinJvmPlugin.apply(KotlinJvmPlugin.kt:68)
+	at org.jetbrains.kotlin.gradle.plugin.KotlinJvmPlugin.apply(KotlinJvmPlugin.kt:32)
+	at org.jetbrains.kotlin.gradle.plugin.KotlinBasePluginWrapper.apply(KotlinPluginWrapper.kt:225)
+	at org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper.apply(PluginWrappers.kt:27)
+	at org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper.apply(PluginWrappers.kt:19)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:43)
+	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:51)
+	at org.gradle.api.internal.plugins.AddSoftwareTypesAsExtensionsPluginTarget.applyImperative(AddSoftwareTypesAsExtensionsPluginTarget.java:94)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:190)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.access$100(DefaultPluginManager.java:54)
+	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:285)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.lambda$doApply$0(DefaultPluginManager.java:170)
+	at org.gradle.internal.code.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:44)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:169)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:148)
+	at org.gradle.plugin.use.resolve.internal.ArtifactRepositoriesPluginResolver$ExternalPluginResolution.applyTo(ArtifactRepositoriesPluginResolver.java:151)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator$ApplyAction.apply(DefaultPluginRequestApplicator.java:156)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.lambda$applyPlugins$1(DefaultPluginRequestApplicator.java:130)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:130)
+	at org.gradle.kotlin.dsl.provider.PluginRequestsHandler.handle(PluginRequestsHandler.kt:45)
+	at org.gradle.kotlin.dsl.provider.StandardKotlinScriptEvaluator$InterpreterHost.applyPluginsTo(KotlinScriptEvaluator.kt:219)
+	at Program.execute(Unknown Source)
+	at org.gradle.kotlin.dsl.provider.StandardKotlinScriptEvaluator.evaluate(KotlinScriptEvaluator.kt:124)
+	at org.gradle.kotlin.dsl.provider.KotlinScriptPluginFactory$create$1.invoke(KotlinScriptPluginFactory.kt:51)
+	at org.gradle.kotlin.dsl.provider.KotlinScriptPluginFactory$create$1.invoke(KotlinScriptPluginFactory.kt:48)
+	at org.gradle.kotlin.dsl.provider.KotlinScriptPlugin.apply(KotlinScriptPlugin.kt:35)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:68)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.configuration.BuildOperationScriptPlugin.lambda$apply$0(BuildOperationScriptPlugin.java:65)
+	at org.gradle.internal.code.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:44)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:65)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.lambda$applyToMutableState$1(DefaultProjectStateRegistry.java:407)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.fromMutableState(DefaultProjectStateRegistry.java:425)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.applyToMutableState(DefaultProjectStateRegistry.java:406)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:46)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:27)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.lambda$run$0(LifecycleProjectEvaluator.java:109)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.lambda$applyToMutableState$1(DefaultProjectStateRegistry.java:407)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.lambda$fromMutableState$2(DefaultProjectStateRegistry.java:430)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withReplacedLocks(DefaultWorkerLeaseService.java:363)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.fromMutableState(DefaultProjectStateRegistry.java:430)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.applyToMutableState(DefaultProjectStateRegistry.java:406)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:100)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:72)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:756)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:157)
+	at org.gradle.api.internal.project.ProjectLifecycleController.lambda$ensureSelfConfigured$2(ProjectLifecycleController.java:84)
+	at org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(StateTransitionController.java:255)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:254)
+	at org.gradle.internal.model.StateTransitionController.lambda$maybeTransitionIfNotCurrentlyTransitioning$10(StateTransitionController.java:199)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:34)
+	at org.gradle.internal.model.StateTransitionController.maybeTransitionIfNotCurrentlyTransitioning(StateTransitionController.java:195)
+	at org.gradle.api.internal.project.ProjectLifecycleController.ensureSelfConfigured(ProjectLifecycleController.java:84)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.ensureConfigured(DefaultProjectStateRegistry.java:381)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:34)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:48)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:42)
+	at org.gradle.configuration.BuildTreePreparingProjectsPreparer.prepareProjects(BuildTreePreparingProjectsPreparer.java:65)
+	at org.gradle.configuration.BuildOperationFiringProjectsPreparer$ConfigureBuild.run(BuildOperationFiringProjectsPreparer.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.configuration.BuildOperationFiringProjectsPreparer.prepareProjects(BuildOperationFiringProjectsPreparer.java:40)
+	at org.gradle.initialization.VintageBuildModelController.lambda$prepareProjects$2(VintageBuildModelController.java:84)
+	at org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(StateTransitionController.java:255)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:254)
+	at org.gradle.internal.model.StateTransitionController.lambda$transitionIfNotPreviously$11(StateTransitionController.java:213)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:34)
+	at org.gradle.internal.model.StateTransitionController.transitionIfNotPreviously(StateTransitionController.java:209)
+	at org.gradle.initialization.VintageBuildModelController.prepareProjects(VintageBuildModelController.java:84)
+	at org.gradle.initialization.VintageBuildModelController.prepareToScheduleTasks(VintageBuildModelController.java:71)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildModelController.prepareToScheduleTasks(ConfigurationCacheAwareBuildModelController.kt:49)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$prepareToScheduleTasks$6(DefaultBuildLifecycleController.java:175)
+	at org.gradle.internal.model.StateTransitionController.lambda$doTransition$14(StateTransitionController.java:255)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:254)
+	at org.gradle.internal.model.StateTransitionController.lambda$maybeTransition$9(StateTransitionController.java:190)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:34)
+	at org.gradle.internal.model.StateTransitionController.maybeTransition(StateTransitionController.java:186)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.prepareToScheduleTasks(DefaultBuildLifecycleController.java:173)
+	at org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.scheduleRequestedTasks(DefaultBuildTreeWorkPreparer.java:36)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildTreeWorkController$scheduleAndRunRequestedTasks$executionResult$1$result$1.invoke(ConfigurationCacheAwareBuildTreeWorkController.kt:48)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildTreeWorkController$scheduleAndRunRequestedTasks$executionResult$1$result$1.invoke(ConfigurationCacheAwareBuildTreeWorkController.kt:45)
+	at org.gradle.internal.cc.impl.DefaultConfigurationCache$loadOrScheduleRequestedTasks$1.invoke(DefaultConfigurationCache.kt:176)
+	at org.gradle.internal.cc.impl.DefaultConfigurationCache$loadOrScheduleRequestedTasks$1.invoke(DefaultConfigurationCache.kt:175)
+	at org.gradle.internal.cc.impl.DefaultConfigurationCache.runWorkThatContributesToCacheEntry(DefaultConfigurationCache.kt:378)
+	at org.gradle.internal.cc.impl.DefaultConfigurationCache.loadOrScheduleRequestedTasks(DefaultConfigurationCache.kt:175)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildTreeWorkController$scheduleAndRunRequestedTasks$executionResult$1.apply(ConfigurationCacheAwareBuildTreeWorkController.kt:45)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildTreeWorkController$scheduleAndRunRequestedTasks$executionResult$1.apply(ConfigurationCacheAwareBuildTreeWorkController.kt:44)
+	at org.gradle.composite.internal.DefaultIncludedBuildTaskGraph.withNewWorkGraph(DefaultIncludedBuildTaskGraph.java:112)
+	at org.gradle.internal.cc.impl.ConfigurationCacheAwareBuildTreeWorkController.scheduleAndRunRequestedTasks(ConfigurationCacheAwareBuildTreeWorkController.kt:44)
+	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$scheduleAndRunTasks$1(DefaultBuildTreeLifecycleController.java:77)
+	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$runBuild$4(DefaultBuildTreeLifecycleController.java:120)
+	at org.gradle.internal.model.StateTransitionController.lambda$transition$6(StateTransitionController.java:169)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.lambda$transition$7(StateTransitionController.java:169)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:44)
+	at org.gradle.internal.model.StateTransitionController.transition(StateTransitionController.java:169)
+	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.runBuild(DefaultBuildTreeLifecycleController.java:117)
+	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRunTasks(DefaultBuildTreeLifecycleController.java:77)
+	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRunTasks(DefaultBuildTreeLifecycleController.java:72)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.internal.buildtree.ProblemReportingBuildActionRunner.run(ProblemReportingBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:65)
+	at org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner.run(FileSystemWatchingBuildActionRunner.java:140)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:41)
+	at org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.lambda$execute$0(RootBuildLifecycleBuildActionExecutor.java:40)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:130)
+	at org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.execute(RootBuildLifecycleBuildActionExecutor.java:40)
+	at org.gradle.internal.buildtree.InitDeprecationLoggingActionExecutor.execute(InitDeprecationLoggingActionExecutor.java:62)
+	at org.gradle.internal.buildtree.InitProblems.execute(InitProblems.java:36)
+	at org.gradle.internal.buildtree.DefaultBuildTreeContext.execute(DefaultBuildTreeContext.java:40)
+	at org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.lambda$execute$0(BuildTreeLifecycleBuildActionExecutor.java:71)
+	at org.gradle.internal.buildtree.BuildTreeState.run(BuildTreeState.java:60)
+	at org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.execute(BuildTreeLifecycleBuildActionExecutor.java:71)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuildOperationBuildActionExecutor.java:61)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuildOperationBuildActionExecutor.java:57)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor.execute(RunAsBuildOperationBuildActionExecutor.java:57)
+	at org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.lambda$execute$0(RunAsWorkerThreadBuildActionExecutor.java:36)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:267)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:131)
+	at org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.execute(RunAsWorkerThreadBuildActionExecutor.java:36)
+	at org.gradle.tooling.internal.provider.continuous.ContinuousBuildActionExecutor.execute(ContinuousBuildActionExecutor.java:110)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecutor.execute(SubscribableBuildActionExecutor.java:64)
+	at org.gradle.internal.session.DefaultBuildSessionContext.execute(DefaultBuildSessionContext.java:46)
+	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor$ActionImpl.apply(BuildSessionLifecycleBuildActionExecutor.java:92)
+	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor$ActionImpl.apply(BuildSessionLifecycleBuildActionExecutor.java:80)
+	at org.gradle.internal.session.BuildSessionState.run(BuildSessionState.java:71)
+	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor.execute(BuildSessionLifecycleBuildActionExecutor.java:62)
+	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor.execute(BuildSessionLifecycleBuildActionExecutor.java:41)
+	at org.gradle.internal.buildprocess.execution.StartParamsValidatingActionExecutor.execute(StartParamsValidatingActionExecutor.java:64)
+	at org.gradle.internal.buildprocess.execution.StartParamsValidatingActionExecutor.execute(StartParamsValidatingActionExecutor.java:32)
+	at org.gradle.internal.buildprocess.execution.SessionFailureReportingActionExecutor.execute(SessionFailureReportingActionExecutor.java:51)
+	at org.gradle.internal.buildprocess.execution.SessionFailureReportingActionExecutor.execute(SessionFailureReportingActionExecutor.java:39)
+	at org.gradle.internal.buildprocess.execution.SetupLoggingActionExecutor.execute(SetupLoggingActionExecutor.java:47)
+	at org.gradle.internal.buildprocess.execution.SetupLoggingActionExecutor.execute(SetupLoggingActionExecutor.java:31)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:70)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.lambda$execute$0(ForwardClientInput.java:40)
+	at org.gradle.internal.daemon.clientinput.ClientInputForwarder.forwardInput(ClientInputForwarder.java:80)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:64)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:84)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:52)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.lambda$runCommand$0(DaemonStateCoordinator.java:320)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+> Task :processTestResources NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :compileKotlin FROM-CACHE
+> Task :compileJava NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestKotlin NO-SOURCE
+> Task :compileTestJava NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 11s
+2 actionable tasks: 1 executed, 1 from cache
+
+Publishing build scan...
+https://gradle.com/s/hdca4s42gqw6q
+
+Configuration cache entry stored.
+Post job cleanup.
+In post-action step
+Stopping all Gradle daemons before saving Gradle User Home state
+Stopping Gradle daemons for /home/runner/.gradle/wrapper/dists/gradle-8.9-bin/90cnw93cvbtalezasaz0blq0a/gradle-8.9
+[command]/home/runner/.gradle/wrapper/dists/gradle-8.9-bin/90cnw93cvbtalezasaz0blq0a/gradle-8.9/bin/gradle --stop
+Stopping Daemon(s)
+1 Daemon stopped
+Forcing cache cleanup.
+Cleaning up caches before 1722393132838
+##[group]Provision Gradle 8.9
+Gradle version 8.9 is already available on PATH. Not installing.
+##[endgroup]
+[command]/usr/bin/gradle -g /home/runner/.gradle -I init.gradle --info --no-daemon --no-scan --build-cache -DGITHUB_DEPENDENCY_GRAPH_ENABLED=false noop
+Initialized native services in: /home/runner/.gradle/native
+Initialized jansi services in: /home/runner/.gradle/native
+Received JVM installation metadata from '/usr/lib/jvm/temurin-21-jdk-amd64': {JAVA_HOME=/usr/lib/jvm/temurin-21-jdk-amd64, JAVA_VERSION=21.0.3, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.3+9-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.3+9-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.9/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'Gradle build daemon'. Working directory: /home/runner/.gradle/daemon/8.9 Command: /usr/lib/jvm/temurin-21-jdk-amd64/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -cp /usr/share/gradle-8.9/lib/gradle-daemon-main-8.9.jar -javaagent:/usr/share/gradle-8.9/lib/agents/gradle-instrumentation-agent-8.9.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.9
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 8.277 secs.
+The client will now receive all logging from the daemon (pid: 2143). The daemon log file: /home/runner/.gradle/daemon/8.9/daemon-2143.out.log
+Daemon will be stopped at the end of the build
+Using 4 worker leases.
+Received JVM installation metadata from '/usr/lib/jvm/temurin-21-jdk-amd64': {JAVA_HOME=/usr/lib/jvm/temurin-21-jdk-amd64, JAVA_VERSION=21.0.3, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.3+9-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.3+9-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [/home/runner/work/_temp/dummy-cleanup-project] as hierarchies to watch
+File system watching is active
+Caching disabled for Groovy DSL script compilation (cp_init) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling initialization script '/home/runner/work/_temp/dummy-cleanup-project/init.gradle' using SubsetScriptTransformer.
+Caching disabled for Groovy DSL script compilation (init) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling initialization script '/home/runner/work/_temp/dummy-cleanup-project/init.gradle' using BuildScriptTransformer.
+Starting Build
+Settings evaluated using settings file '/home/runner/work/_temp/dummy-cleanup-project/settings.gradle'.
+Using local directory build cache for the root build (location = /home/runner/.gradle/caches/build-cache-1, removeUnusedEntriesAfter = 7 days).
+Projects loaded. Root project using build file '/home/runner/work/_temp/dummy-cleanup-project/build.gradle'.
+Included projects: [root project 'dummy-cleanup-project']
+
+> Configure project :
+Evaluating root project 'dummy-cleanup-project' using build file '/home/runner/work/_temp/dummy-cleanup-project/build.gradle'.
+All projects evaluated.
+Task name matched 'noop'
+Selected primary task 'noop' from project :
+Tasks to be executed: [task ':noop']
+Tasks that were excluded: []
+Resolve mutations for :noop (Thread[#53,Execution worker Thread 2,5,main]) started.
+:noop (Thread[#53,Execution worker Thread 2,5,main]) started.
+
+> Task :noop UP-TO-DATE
+Skipping task ':noop' as it has no actions.
+
+BUILD SUCCESSFUL in 19s
+Build cache (/home/runner/.gradle/caches/build-cache-1) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+Build cache (/home/runner/.gradle/caches/build-cache-1) cleanup deleted 0 files/directories.
+Build cache (/home/runner/.gradle/caches/build-cache-1) cleaned up in 0.002 secs.
+groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) cleanup deleted 2 files/directories.
+groovy-dsl (/home/runner/.gradle/caches/8.9/groovy-dsl) cleaned up in 0.009 secs.
+Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) cleanup deleted 0 files/directories.
+Artifact transforms cache (/home/runner/.gradle/caches/8.9/transforms) cleaned up in 0.026 secs.
+jars (/home/runner/.gradle/caches/jars-9) cleanup deleted 0 files/directories.
+jars (/home/runner/.gradle/caches/jars-9) removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+jars (/home/runner/.gradle/caches/jars-9) cleanup deleted 1 files/directories.
+jars (/home/runner/.gradle/caches/jars-9) cleaned up in 0.003 secs.
+artifact cache (/home/runner/.gradle/caches/modules-2) cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/resources-2.1] cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] removing files not accessed on or after Wed Jul 31 02:32:12 UTC 2024.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/files-2.1] cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) [subdir: /home/runner/.gradle/caches/modules-2/metadata-2.106] cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) cleanup deleted 0 files/directories.
+artifact cache (/home/runner/.gradle/caches/modules-2) cleaned up in 0.009 secs.
+##[group]Caching Gradle state
+Not saving configuration-cache state, as no encryption key was provided
+Caching instrumented-jars with path '/home/runner/.gradle/caches/jars-*/*/' and cache key: gradle-instrumented-jars-v1-6a372dd5a944fa011058dbba25130467
+Caching groovy-dsl with path '/home/runner/.gradle/caches/*/groovy-dsl/*/' and cache key: gradle-groovy-dsl-v1-f0758832b95222a2b8e08d42d7127acf
+[command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
+[command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
+Cache Size: ~0 MB (108059 B)
+Cache Size: ~0 MB (70819 B)
+Cache saved successfully
+Cache saved successfully
+Caching Gradle User Home with cache key: gradle-home-v1|Linux-X64|run-tests[27df40b80d25f4e0c5be504ed712742e]-7efa1c3209cbcbae9baad9fa51ca3873d5a919bf
+[command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro --files-from manifest.txt --use-compress-program zstdmt
+Cache Size: ~0 MB (144124 B)
+Cache saved successfully
+##[endgroup]
+Generating Job Summary
+Completed post-action step
+Post job cleanup.
+Post job cleanup.
+[command]/usr/bin/git version
+git version 2.45.2
+Temporarily overriding HOME='/home/runner/work/_temp/c3b70e32-7843-430a-a216-f633304346ca' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+[command]/usr/bin/git config --global --add safe.directory /home/runner/work/gradle-setup-action-cache-repro/gradle-setup-action-cache-repro
+[command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+[command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+[command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+[command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+[command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Cleaning up orphan processes
