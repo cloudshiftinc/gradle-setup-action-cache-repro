@@ -47,3 +47,9 @@ jobs:
   build-second:
     needs: [ 'build-first' ]
     uses: ./.github/workflows/run-gradle.yml
+
+  build-matrix:
+    strategy:
+      matrix:
+        a-matrix-dimension: [ 10, 12 ]
+    uses: ./.github/workflows/run-gradle.yml
