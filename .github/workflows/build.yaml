@@ -53,3 +53,14 @@ jobs:
       matrix:
         a-matrix-dimension: [ 10, 12 ]
     uses: ./.github/workflows/run-gradle.yml
+
+  build-matrix-2:
+    strategy:
+      matrix:
+        a-matrix-dimension: [ 10, 12 ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump matrix context
+        env:
+          MATRIX_CONTEXT: ${{ toJson(matrix) }}
+        run: echo "$MATRIX_CONTEXT"
